@@ -1,0 +1,111 @@
+================================================================================
+                    CORRECTION DU GRAPHIQUE D'EVOLUTION
+                          Dashboard Recteur
+================================================================================
+
+PROBLEME RESOLU :
+  Le graphique "Evolution des inscriptions (12 derniers mois)" etait vide
+
+SOLUTION APPLIQUEE :
+  ✓ Correction de la requete SQL dans le backend
+  ✓ Creation de scripts de test et correction
+  ✓ Documentation complete
+
+================================================================================
+                         COMMENT APPLIQUER LA CORRECTION
+================================================================================
+
+METHODE 1 - AUTOMATIQUE (RECOMMANDEE)
+--------------------------------------
+Windows :
+  > fix-graphique-evolution.bat
+
+Linux/Mac :
+  $ chmod +x fix-graphique-evolution.sh
+  $ ./fix-graphique-evolution.sh
+
+METHODE 2 - MANUELLE
+--------------------
+1. Tester :
+   $ cd backend
+   $ node scripts/testEvolutionInscriptions.js
+
+2. Corriger (si necessaire) :
+   $ node scripts/fixEvolutionDates.js
+
+3. Redemarrer le backend :
+   $ npm run dev
+
+4. Verifier dans l'interface :
+   http://localhost:3000/dashboard/recteur
+
+================================================================================
+                              DOCUMENTATION
+================================================================================
+
+GUIDE RAPIDE :
+  FIX_GRAPHIQUE_EVOLUTION_README.md
+
+SOLUTION COMPLETE :
+  SOLUTION_GRAPHIQUE_EVOLUTION.md
+
+DETAILS TECHNIQUES :
+  CORRECTION_GRAPHIQUE_EVOLUTION.md
+
+HISTORIQUE :
+  CHANGELOG_GRAPHIQUE_EVOLUTION.md
+
+INSTRUCTIONS :
+  INSTRUCTIONS_CORRECTION_GRAPHIQUE.md
+
+================================================================================
+                            FICHIERS MODIFIES
+================================================================================
+
+BACKEND :
+  backend/controllers/recteurDashboardController.js
+    → Correction de la fonction getEvolutionInscriptions
+
+SCRIPTS CREES :
+  backend/scripts/testEvolutionInscriptions.js
+    → Script de test et diagnostic
+
+  backend/scripts/fixEvolutionDates.js
+    → Script de correction des dates
+
+  fix-graphique-evolution.bat
+    → Script automatise Windows
+
+  fix-graphique-evolution.sh
+    → Script automatise Linux/Mac
+
+DOCUMENTATION :
+  CORRECTION_GRAPHIQUE_EVOLUTION.md
+  FIX_GRAPHIQUE_EVOLUTION_README.md
+  SOLUTION_GRAPHIQUE_EVOLUTION.md
+  CHANGELOG_GRAPHIQUE_EVOLUTION.md
+  INSTRUCTIONS_CORRECTION_GRAPHIQUE.md
+  RESUME_CORRECTION_GRAPHIQUE.txt (ce fichier)
+
+================================================================================
+                              VERIFICATION
+================================================================================
+
+Apres la correction, vous devriez voir :
+  ✓ Des barres dans le graphique pour chaque mois
+  ✓ Le nombre total d'inscriptions en haut a droite
+  ✓ Les mois sur l'axe horizontal
+  ✓ Le nombre d'inscriptions sur l'axe vertical
+
+================================================================================
+                            BESOIN D'AIDE ?
+================================================================================
+
+Si le probleme persiste :
+  1. Consultez SOLUTION_GRAPHIQUE_EVOLUTION.md (section Depannage)
+  2. Verifiez les logs du backend
+  3. Verifiez les logs du frontend (console navigateur F12)
+
+================================================================================
+Date de correction : 13 avril 2026
+================================================================================

@@ -1,0 +1,118 @@
+{
+  "name": "Envoi d'invitations SIAPET - PostgreSQL",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "send-invitations",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "webhook-trigger",
+      "name": "Webhook Trigger",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [250, 300],
+      "webhookId": "send-invitations"
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT \n  u.numero_utilisateur,\n  u.nom,\n  u.prenom,\n  u.email,\n  LOWER(u.type_utilisateur) as role\nFROM utilisateur u\nWHERE u.email IN (\n  'benhazemmemna@gmail.com',\n  'ghofranesebteoui16@gmail.com',\n  'gsebteoui@gmail.com',\n  'benahmedjamila31@gmail.com'\n)\nAND u.statut = 'ACTIF'\nORDER BY \n  CASE u.email\n    WHEN 'benhazemmemna@gmail.com' THEN 1\n    WHEN 'ghofranesebteoui16@gmail.com' THEN 2\n    WHEN 'gsebteoui@gmail.com' THEN 3\n    WHEN 'benahmedjamila31@gmail.com' THEN 4\n  END",
+        "additionalFields": {}
+      },
+      "id": "postgres-query",
+      "name": "Récupérer les 3 utilisateurs depuis PostgreSQL",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2,
+      "position": [450, 300],
+      "credentials": {
+        "postgres": {
+          "id": "2",
+          "name": "SIAPET PostgreSQL"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "functionCode": "// Vérifier qu'on a bien récupéré des utilisateurs\nconst users = $input.all().map(item => item.json);\n\nif (!users || users.length === 0) {\n  throw new Error('Aucun utilisateur trouvé dans la base de données pour les emails spécifiés');\n}\n\nconsole.log(`✅ ${users.length} utilisateur(s) récupéré(s) depuis PostgreSQL`);\n\nconst webhookData = $input.first().json;\n\n// Ajouter les informations supplémentaires à chaque utilisateur\nconst items = users.map(user => ({\n  json: {\n    ...user,\n    triggered_by: webhookData.triggered_by || 'admin@siapet.tn',\n    triggered_at: webhookData.triggered_at || new Date().toISOString(),\n    demande_url: `${process.env.FRONTEND_URL || 'http://localhost:3000'}/demande-acces`\n  }\n}));\n\nreturn items;"
+      },
+      "id": "prepare-data",
+      "name": "Préparer les données",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [650, 300]
+    },
+    {
+      "parameters": {
+        "functionCode": "const user = $input.item.json;\nconst role = user.role.toLowerCase();\n\n// Contenu personnalisé selon le rôle\nconst roleContent = {\n  etudiant: {\n    title: '🎓 Étudiants',\n    benefits: [\n      '📚 Suivi de votre parcours académique en temps réel',\n      '📊 Consultation de vos notes et résultats',\n      '📅 Gestion de vos inscriptions',\n      '📄 Accès à vos documents administratifs',\n      '💬 Communication directe avec votre établissement'\n    ],\n    color: '#43e97b',\n    gradient: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)'\n  },\n  enseignant: {\n    title: '👨‍🏫 Enseignants',\n    benefits: [\n      '📊 Gérez vos classes et étudiants efficacement',\n      '✍️ Saisissez les notes et évaluations en ligne',\n      '📋 Consultez les listes de présence',\n      '📈 Analysez les performances de vos étudiants',\n      '🗓️ Planifiez vos cours et examens'\n    ],\n    color: '#4facfe',\n    gradient: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)'\n  },\n  directeur: {\n    title: '👔 Directeurs',\n    benefits: [\n      '📊 Tableau de bord complet de votre établissement',\n      '👥 Gestion des enseignants et du personnel',\n      '📈 Statistiques et rapports détaillés',\n      '🎯 Suivi des performances académiques',\n      '📋 Validation des décisions administratives'\n    ],\n    color: '#f093fb',\n    gradient: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)'\n  },\n  recteur: {\n    title: '🎩 Recteurs',\n    benefits: [\n      '🏛️ Vue d\\'ensemble de toute l\\'université',\n      '📊 Analyses stratégiques et KPIs',\n      '👥 Gestion globale des établissements',\n      '📈 Rapports consolidés et tendances',\n      '🎯 Pilotage de la stratégie universitaire'\n    ],\n    color: '#667eea',\n    gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)'\n  }\n};\n\nconst content = roleContent[role] || roleContent.etudiant;\n\nconsole.log(`📧 Personnalisation pour ${user.email} (${role})`);\n\nreturn {\n  json: {\n    ...user,\n    roleTitle: content.title,\n    benefits: content.benefits,\n    color: content.color,\n    gradient: content.gradient\n  }\n};"
+      },
+      "id": "personalize-content",
+      "name": "Personnaliser selon le rôle",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [850, 300]
+    },
+    {
+      "parameters": {
+        "fromEmail": "={{$env.SMTP_USER}}",
+        "toEmail": "={{$json.email}}",
+        "subject": "🎓 Invitation SIAPET - Demandez votre accès {{$json.roleTitle.split(' ')[1]}}",
+        "emailType": "html",
+        "message": "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <style>\n    body {\n      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n      line-height: 1.6;\n      color: #333;\n      margin: 0;\n      padding: 0;\n      background: #f4f7fa;\n    }\n    .container {\n      max-width: 600px;\n      margin: 30px auto;\n      background: #ffffff;\n      border-radius: 16px;\n      overflow: hidden;\n      box-shadow: 0 4px 24px rgba(0,0,0,0.12);\n    }\n    .header {\n      background: {{$json.gradient}};\n      color: #ffffff;\n      padding: 40px 30px;\n      text-align: center;\n    }\n    .header h1 {\n      margin: 0 0 10px 0;\n      font-size: 32px;\n      font-weight: 800;\n      letter-spacing: -0.5px;\n    }\n    .header p {\n      margin: 0;\n      opacity: 0.95;\n      font-size: 15px;\n    }\n    .content {\n      padding: 40px 30px;\n    }\n    .greeting {\n      font-size: 20px;\n      font-weight: 700;\n      color: #1a1a1a;\n      margin-bottom: 20px;\n    }\n    .intro {\n      color: #666;\n      margin-bottom: 30px;\n      font-size: 16px;\n      line-height: 1.7;\n    }\n    .role-section {\n      background: linear-gradient(145deg, {{$json.color}}10, {{$json.color}}05);\n      padding: 25px;\n      margin: 25px 0;\n      border-radius: 14px;\n      border: 2px solid {{$json.color}}30;\n    }\n    .role-section h3 {\n      margin: 0 0 20px 0;\n      color: #1a1a1a;\n      font-size: 20px;\n      font-weight: 800;\n    }\n    .benefit-item {\n      padding: 12px 0;\n      border-left: 4px solid {{$json.color}};\n      padding-left: 18px;\n      margin: 12px 0;\n      background: {{$json.color}}08;\n      border-radius: 8px;\n      font-size: 15px;\n    }\n    .btn-container {\n      text-align: center;\n      margin: 35px 0;\n    }\n    .btn {\n      display: inline-block;\n      background: {{$json.gradient}};\n      color: #ffffff;\n      padding: 18px 45px;\n      text-decoration: none;\n      border-radius: 12px;\n      font-weight: 800;\n      font-size: 16px;\n      box-shadow: 0 6px 20px {{$json.color}}40;\n      transition: all 0.3s ease;\n    }\n    .important {\n      background: #fff3cd;\n      border: 2px solid #ffc107;\n      border-radius: 12px;\n      padding: 20px;\n      margin: 25px 0;\n    }\n    .important strong {\n      color: #856404;\n      display: block;\n      margin-bottom: 10px;\n      font-size: 16px;\n    }\n    .important p {\n      margin: 0;\n      color: #856404;\n      font-size: 14px;\n    }\n    .email-highlight {\n      background: {{$json.color}}20;\n      color: {{$json.color}};\n      padding: 4px 10px;\n      border-radius: 6px;\n      font-weight: 700;\n      font-family: 'Courier New', monospace;\n    }\n    .footer {\n      text-align: center;\n      padding: 30px;\n      background: #f8f9fa;\n      color: #6c757d;\n      font-size: 13px;\n      border-top: 1px solid #e9ecef;\n    }\n    .footer p {\n      margin: 8px 0;\n    }\n    .footer strong {\n      color: #495057;\n    }\n    .db-badge {\n      background: #28a745;\n      color: white;\n      padding: 4px 10px;\n      border-radius: 6px;\n      font-size: 11px;\n      font-weight: 700;\n      display: inline-block;\n      margin-top: 10px;\n    }\n  </style>\n</head>\n<body>\n  <div class=\"container\">\n    <div class=\"header\">\n      <h1>🎓 Bienvenue sur SIAPET</h1>\n      <p>Système d'Information et d'Aide à la Planification de l'Enseignement en Tunisie</p>\n      <span class=\"db-badge\">✓ Données depuis PostgreSQL</span>\n    </div>\n    \n    <div class=\"content\">\n      <div class=\"greeting\">Bonjour {{$json.prenom}} {{$json.nom}},</div>\n      \n      <div class=\"intro\">\n        Nous sommes ravis de vous inviter à rejoindre <strong>SIAPET</strong>, la nouvelle plateforme digitale du Ministère de l'Enseignement Supérieur et de la Recherche Scientifique.\n      </div>\n      \n      <div class=\"role-section\">\n        <h3>{{$json.roleTitle}}</h3>\n        <p style=\"color:#666;margin-bottom:20px;\">Découvrez les avantages exclusifs de votre espace :</p>\n        <div class=\"benefits\">\n          {{#each $json.benefits}}\n          <div class=\"benefit-item\">{{this}}</div>\n          {{/each}}\n        </div>\n      </div>\n\n      <div class=\"btn-container\">\n        <a href=\"{{$json.demande_url}}\" class=\"btn\">\n          Demander l'accès maintenant →\n        </a>\n      </div>\n\n      <div class=\"important\">\n        <strong>⚠️ Important</strong>\n        <p>\n          Vous devez utiliser le même email (<span class=\"email-highlight\">{{$json.email}}</span>) lors de votre demande d'accès pour que votre compte soit validé correctement.\n        </p>\n      </div>\n\n      <p style=\"color:#999;font-size:13px;text-align:center;margin-top:30px;\">\n        Numéro utilisateur: <strong>{{$json.numero_utilisateur}}</strong><br>\n        Si vous avez des questions, n'hésitez pas à contacter l'administrateur système.\n      </p>\n    </div>\n    \n    <div class=\"footer\">\n      <p><strong>© 2026 SIAPET</strong></p>\n      <p>Ministère de l'Enseignement Supérieur et de la Recherche Scientifique</p>\n      <p style=\"margin-top:15px;\">Cordialement,<br>L'équipe MESRS</p>\n      <p style=\"margin-top:10px;font-size:11px;\">Cet email a été envoyé automatiquement, merci de ne pas y répondre.</p>\n    </div>\n  </div>\n</body>\n</html>",
+        "options": {
+          "allowUnauthorizedCerts": true
+        }
+      },
+      "id": "send-email",
+      "name": "Envoyer l'email",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2,
+      "position": [1050, 300],
+      "credentials": {
+        "smtp": {
+          "id": "1",
+          "name": "SMTP Account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ { \n  \"success\": true, \n  \"message\": \"Invitations envoyées avec succès depuis PostgreSQL\", \n  \"count\": $items().length,\n  \"source\": \"PostgreSQL Database\",\n  \"recipients\": $items().map(item => ({\n    email: item.json.email,\n    nom: item.json.nom,\n    prenom: item.json.prenom,\n    role: item.json.role,\n    numero_utilisateur: item.json.numero_utilisateur\n  }))\n} }}"
+      },
+      "id": "response",
+      "name": "Réponse",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [1250, 300]
+    }
+  ],
+  "connections": {
+    "Webhook Trigger": {
+      "main": [[{"node": "Récupérer les 3 utilisateurs depuis PostgreSQL", "type": "main", "index": 0}]]
+    },
+    "Récupérer les 3 utilisateurs depuis PostgreSQL": {
+      "main": [[{"node": "Préparer les données", "type": "main", "index": 0}]]
+    },
+    "Préparer les données": {
+      "main": [[{"node": "Personnaliser selon le rôle", "type": "main", "index": 0}]]
+    },
+    "Personnaliser selon le rôle": {
+      "main": [[{"node": "Envoyer l'email", "type": "main", "index": 0}]]
+    },
+    "Envoyer l'email": {
+      "main": [[{"node": "Réponse", "type": "main", "index": 0}]]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "4",
+  "id": "send-invitations-postgres",
+  "meta": {
+    "instanceId": "siapet-n8n"
+  },
+  "tags": []
+}

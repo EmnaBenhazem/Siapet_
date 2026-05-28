@@ -1,0 +1,5762 @@
+﻿[
+  {
+    "id_departement": 1,
+    "nom_departement": "Langue, Littérature et Civilisation Arabes",
+    "spec_ids": [
+      1,
+      2,
+      3
+    ],
+    "spec_names": [
+      "Langue et Littérature Arabes",
+      "Civilisation et Patrimoine Arabes",
+      "Master Linguistique Arabe"
+    ]
+  },
+  {
+    "id_departement": 2,
+    "nom_departement": "Langue, Littérature et Civilisation Anglaises",
+    "spec_ids": [
+      4
+    ],
+    "spec_names": [
+      "Langue et Littérature Anglaises"
+    ]
+  },
+  {
+    "id_departement": 3,
+    "nom_departement": "Langue, Littérature et Civilisation Françaises",
+    "spec_ids": [
+      5
+    ],
+    "spec_names": [
+      "Langue et Littérature Françaises"
+    ]
+  },
+  {
+    "id_departement": 4,
+    "nom_departement": "Histoire",
+    "spec_ids": [
+      6,
+      7
+    ],
+    "spec_names": [
+      "Histoire Ancienne et Médiévale",
+      "Histoire Contemporaine"
+    ]
+  },
+  {
+    "id_departement": 5,
+    "nom_departement": "Géographie",
+    "spec_ids": [
+      8
+    ],
+    "spec_names": [
+      "Géographie Humaine et Aménagement"
+    ]
+  },
+  {
+    "id_departement": 6,
+    "nom_departement": "Philosophie",
+    "spec_ids": [
+      9
+    ],
+    "spec_names": [
+      "Philosophie Générale"
+    ]
+  },
+  {
+    "id_departement": 7,
+    "nom_departement": "Psychologie",
+    "spec_ids": [
+      10,
+      11,
+      12
+    ],
+    "spec_names": [
+      "Psychologie Clinique",
+      "Psychologie Sociale et du Travail",
+      "Master Psychologie Clinique"
+    ]
+  },
+  {
+    "id_departement": 8,
+    "nom_departement": "Sociologie",
+    "spec_ids": [
+      13,
+      14
+    ],
+    "spec_names": [
+      "Sociologie des Organisations",
+      "Sociologie Urbaine et Rurale"
+    ]
+  },
+  {
+    "id_departement": 9,
+    "nom_departement": "Sciences Économiques",
+    "spec_ids": [
+      15,
+      16,
+      17
+    ],
+    "spec_names": [
+      "Économie et Gestion",
+      "Économie Appliquée",
+      "Master Macroéconomie"
+    ]
+  },
+  {
+    "id_departement": 10,
+    "nom_departement": "Finance et Comptabilité",
+    "spec_ids": [
+      18,
+      19,
+      20
+    ],
+    "spec_names": [
+      "Finance et Banque",
+      "Comptabilité et Fiscalité",
+      "Master Finance Entreprise"
+    ]
+  },
+  {
+    "id_departement": 11,
+    "nom_departement": "Marketing et Commerce",
+    "spec_ids": [
+      21,
+      22,
+      23
+    ],
+    "spec_names": [
+      "Marketing et Communication",
+      "Commerce International",
+      "Marketing Digital"
+    ]
+  },
+  {
+    "id_departement": 12,
+    "nom_departement": "Management et Ressources Humaines",
+    "spec_ids": [
+      24,
+      25
+    ],
+    "spec_names": [
+      "Management des Organisations",
+      "Master GRH"
+    ]
+  },
+  {
+    "id_departement": 13,
+    "nom_departement": "Informatique de Gestion",
+    "spec_ids": [
+      26,
+      27
+    ],
+    "spec_names": [
+      "Informatique Décisionnelle",
+      "Master Systèmes Information"
+    ]
+  },
+  {
+    "id_departement": 14,
+    "nom_departement": "Sciences de l'Éducation",
+    "spec_ids": [
+      28,
+      29
+    ],
+    "spec_names": [
+      "Didactique et Formation des Enseignants",
+      "Sciences de l'Éducation"
+    ]
+  },
+  {
+    "id_departement": 15,
+    "nom_departement": "Mathématiques",
+    "spec_ids": [
+      30,
+      31
+    ],
+    "spec_names": [
+      "Mathématiques Pures",
+      "Mathématiques Appliquées"
+    ]
+  },
+  {
+    "id_departement": 16,
+    "nom_departement": "Sciences Naturelles",
+    "spec_ids": [
+      32
+    ],
+    "spec_names": [
+      "Biologie et Géologie"
+    ]
+  },
+  {
+    "id_departement": 17,
+    "nom_departement": "Lettres et Langues",
+    "spec_ids": [
+      33,
+      34
+    ],
+    "spec_names": [
+      "Lettres Arabes pour l'Enseignement",
+      "Lettres Françaises pour l'Enseignement"
+    ]
+  },
+  {
+    "id_departement": 18,
+    "nom_departement": "Mathématiques et Physique",
+    "spec_ids": [
+      35
+    ],
+    "spec_names": [
+      "Mathématiques-Physique (MP)"
+    ]
+  },
+  {
+    "id_departement": 19,
+    "nom_departement": "Physique et Chimie",
+    "spec_ids": [
+      36
+    ],
+    "spec_names": [
+      "Physique-Chimie (PC)"
+    ]
+  },
+  {
+    "id_departement": 20,
+    "nom_departement": "Technologie et Sciences de l'Ingénieur",
+    "spec_ids": [
+      37
+    ],
+    "spec_names": [
+      "Technologie et Sciences de l'Ingénieur"
+    ]
+  },
+  {
+    "id_departement": 23,
+    "nom_departement": "Marketing, Commerce International et Langues",
+    "spec_ids": [
+      38,
+      39,
+      40
+    ],
+    "spec_names": [
+      "Marketing et Commerce",
+      "Commerce International et Langues",
+      "Master Marketing Connecté"
+    ]
+  },
+  {
+    "id_departement": 24,
+    "nom_departement": "Ressources Humaines, Management et Droit",
+    "spec_ids": [
+      41,
+      42
+    ],
+    "spec_names": [
+      "Gestion des Ressources Humaines",
+      "Management des Organisations Sociales"
+    ]
+  },
+  {
+    "id_departement": 25,
+    "nom_departement": "Finance et Comptabilité ISG",
+    "spec_ids": [
+      43,
+      44,
+      45,
+      46
+    ],
+    "spec_names": [
+      "Comptabilité",
+      "Finance d'Entreprise",
+      "Master Comptabilité Professionnelle",
+      "Master Finance de Recherche"
+    ]
+  },
+  {
+    "id_departement": 27,
+    "nom_departement": "Informatique de Gestion ISG",
+    "spec_ids": [
+      47,
+      48,
+      49,
+      50
+    ],
+    "spec_names": [
+      "Informatique de Gestion",
+      "Informatique Décisionnelle ISG",
+      "Sécurité des SI",
+      "Data Science for Business"
+    ]
+  },
+  {
+    "id_departement": 28,
+    "nom_departement": "Arts Plastiques",
+    "spec_ids": [
+      51,
+      52
+    ],
+    "spec_names": [
+      "Peinture et Arts Plastiques",
+      "Sculpture et Volume"
+    ]
+  },
+  {
+    "id_departement": 29,
+    "nom_departement": "Design",
+    "spec_ids": [
+      53,
+      54
+    ],
+    "spec_names": [
+      "Design Graphique",
+      "Design d'Intérieur"
+    ]
+  },
+  {
+    "id_departement": 30,
+    "nom_departement": "Arts et Médias",
+    "spec_ids": [
+      55
+    ],
+    "spec_names": [
+      "Photographie et Vidéo"
+    ]
+  },
+  {
+    "id_departement": 31,
+    "nom_departement": "Musique Arabe et Traditionnelle",
+    "spec_ids": [
+      56,
+      57
+    ],
+    "spec_names": [
+      "Musique Arabe Traditionnelle",
+      "Musique Andalouse"
+    ]
+  },
+  {
+    "id_departement": 32,
+    "nom_departement": "Musique Occidentale",
+    "spec_ids": [
+      58
+    ],
+    "spec_names": [
+      "Instruments Classiques Occidentaux"
+    ]
+  },
+  {
+    "id_departement": 33,
+    "nom_departement": "Musicologie et Composition",
+    "spec_ids": [
+      59
+    ],
+    "spec_names": [
+      "Composition et Arrangement"
+    ]
+  },
+  {
+    "id_departement": 34,
+    "nom_departement": "Art Dramatique et Mise en Scène",
+    "spec_ids": [
+      60,
+      61
+    ],
+    "spec_names": [
+      "Jeu d'Acteur et Interprétation",
+      "Mise en Scène"
+    ]
+  },
+  {
+    "id_departement": 35,
+    "nom_departement": "Théâtre et Patrimoine",
+    "spec_ids": [
+      62
+    ],
+    "spec_names": [
+      "Théâtre Arabe et Patrimoine"
+    ]
+  },
+  {
+    "id_departement": 36,
+    "nom_departement": "Sciences du Patrimoine",
+    "spec_ids": [
+      63,
+      64
+    ],
+    "spec_names": [
+      "Conservation et Restauration du Patrimoine",
+      "Gestion Muséale et Patrimoniale"
+    ]
+  },
+  {
+    "id_departement": 37,
+    "nom_departement": "Sciences de la Culture",
+    "spec_ids": [
+      65
+    ],
+    "spec_names": [
+      "Politique et Industries Culturelles"
+    ]
+  },
+  {
+    "id_departement": 38,
+    "nom_departement": "Études Arabes Appliquées",
+    "spec_ids": [
+      66
+    ],
+    "spec_names": [
+      "Traduction et Interprétariat Arabe"
+    ]
+  },
+  {
+    "id_departement": 39,
+    "nom_departement": "Études Françaises Appliquées",
+    "spec_ids": [
+      67,
+      69
+    ],
+    "spec_names": [
+      "Traduction Française Spécialisée",
+      "Master Traduction Spécialisée"
+    ]
+  },
+  {
+    "id_departement": 40,
+    "nom_departement": "Études Anglaises Appliquées",
+    "spec_ids": [
+      68
+    ],
+    "spec_names": [
+      "Traduction Anglaise Spécialisée"
+    ]
+  },
+  {
+    "id_departement": 41,
+    "nom_departement": "Animation Socioculturelle",
+    "spec_ids": [
+      70
+    ],
+    "spec_names": [
+      "Animation et Gestion Culturelle"
+    ]
+  },
+  {
+    "id_departement": 42,
+    "nom_departement": "Sciences du Sport et Animation",
+    "spec_ids": [
+      71
+    ],
+    "spec_names": [
+      "Activités Physiques et Animation Sportive"
+    ]
+  },
+  {
+    "id_departement": 43,
+    "nom_departement": "Humanités et Sciences Sociales",
+    "spec_ids": [
+      72
+    ],
+    "spec_names": [
+      "Sciences Humaines et Sociales Appliquées"
+    ]
+  },
+  {
+    "id_departement": 44,
+    "nom_departement": "Langues et Communication",
+    "spec_ids": [
+      73
+    ],
+    "spec_names": [
+      "Langues et Communication Professionnelle"
+    ]
+  },
+  {
+    "id_departement": 45,
+    "nom_departement": "Business Administration",
+    "spec_ids": [
+      74,
+      75
+    ],
+    "spec_names": [
+      "Business Administration",
+      "MBA Management International"
+    ]
+  },
+  {
+    "id_departement": 46,
+    "nom_departement": "Finance et Économie TBS",
+    "spec_ids": [
+      76
+    ],
+    "spec_names": [
+      "Finance Internationale"
+    ]
+  },
+  {
+    "id_departement": 47,
+    "nom_departement": "Digital Business",
+    "spec_ids": [
+      77,
+      78
+    ],
+    "spec_names": [
+      "Digital Business et E-Commerce",
+      "Master Digital Marketing"
+    ]
+  },
+  {
+    "id_departement": 48,
+    "nom_departement": "Droit Privé",
+    "spec_ids": [
+      79,
+      80,
+      81
+    ],
+    "spec_names": [
+      "Droit Civil et des Obligations",
+      "Droit des Affaires",
+      "Master Droit des Affaires Approfondi"
+    ]
+  },
+  {
+    "id_departement": 49,
+    "nom_departement": "Droit Public",
+    "spec_ids": [
+      82,
+      83,
+      84
+    ],
+    "spec_names": [
+      "Droit Constitutionnel et Institutions",
+      "Droit Administratif et Finances Publiques",
+      "Master Droit Public Approfondi"
+    ]
+  },
+  {
+    "id_departement": 50,
+    "nom_departement": "Sciences Politiques",
+    "spec_ids": [
+      85,
+      86,
+      87
+    ],
+    "spec_names": [
+      "Relations Internationales",
+      "Politique Comparée",
+      "Master Gouvernance et Politiques Publiques"
+    ]
+  },
+  {
+    "id_departement": 51,
+    "nom_departement": "Droit International et Européen",
+    "spec_ids": [
+      88
+    ],
+    "spec_names": [
+      "Master Droit International et Arbitrage"
+    ]
+  },
+  {
+    "id_departement": 52,
+    "nom_departement": "Sciences Économiques",
+    "spec_ids": [
+      89,
+      90,
+      91
+    ],
+    "spec_names": [
+      "Économie du Développement",
+      "Économie et Finance Internationale",
+      "Master Économétrie et Modélisation"
+    ]
+  },
+  {
+    "id_departement": 53,
+    "nom_departement": "Gestion",
+    "spec_ids": [
+      92,
+      93,
+      94,
+      95
+    ],
+    "spec_names": [
+      "Comptabilité et Finance",
+      "Management des Organisations",
+      "Master Management Stratégique",
+      "Master Comptabilité et Audit"
+    ]
+  },
+  {
+    "id_departement": 54,
+    "nom_departement": "Quantitatif et Informatique",
+    "spec_ids": [
+      96,
+      97
+    ],
+    "spec_names": [
+      "Statistiques et Actuariat",
+      "Master Décision et Analyse des Données"
+    ]
+  },
+  {
+    "id_departement": 55,
+    "nom_departement": "Mathématiques",
+    "spec_ids": [
+      98,
+      99,
+      100
+    ],
+    "spec_names": [
+      "Mathématiques Pures",
+      "Mathématiques Appliquées",
+      "Master Mathématiques Fondamentales"
+    ]
+  },
+  {
+    "id_departement": 56,
+    "nom_departement": "Physique",
+    "spec_ids": [
+      101,
+      102,
+      103
+    ],
+    "spec_names": [
+      "Physique Fondamentale",
+      "Physique des Matériaux",
+      "Master Physique de la Matière Condensée"
+    ]
+  },
+  {
+    "id_departement": 57,
+    "nom_departement": "Chimie",
+    "spec_ids": [
+      104,
+      105
+    ],
+    "spec_names": [
+      "Chimie Organique",
+      "Chimie Analytique et Physique"
+    ]
+  },
+  {
+    "id_departement": 58,
+    "nom_departement": "Informatique",
+    "spec_ids": [
+      106,
+      107,
+      108
+    ],
+    "spec_names": [
+      "Informatique Générale",
+      "Réseaux et Sécurité Informatique",
+      "Master Intelligence Artificielle"
+    ]
+  },
+  {
+    "id_departement": 59,
+    "nom_departement": "Biologie",
+    "spec_ids": [
+      109,
+      110,
+      111
+    ],
+    "spec_names": [
+      "Biologie Cellulaire et Moléculaire",
+      "Microbiologie et Immunologie",
+      "Master Biotechnologies"
+    ]
+  },
+  {
+    "id_departement": 60,
+    "nom_departement": "Géologie",
+    "spec_ids": [
+      112,
+      113
+    ],
+    "spec_names": [
+      "Géologie Structurale et Sédimentologie",
+      "Hydrogéologie et Ressources en Eau"
+    ]
+  },
+  {
+    "id_departement": 61,
+    "nom_departement": "Médecine Fondamentale",
+    "spec_ids": [
+      114,
+      115
+    ],
+    "spec_names": [
+      "Médecine Générale",
+      "Médecine Spécialisée - Résidanat"
+    ]
+  },
+  {
+    "id_departement": 63,
+    "nom_departement": "Pharmacologie et Médecine Préventive",
+    "spec_ids": [
+      116
+    ],
+    "spec_names": [
+      "Master Sciences Biomédicales"
+    ]
+  },
+  {
+    "id_departement": 65,
+    "nom_departement": "Génie Civil",
+    "spec_ids": [
+      117,
+      118
+    ],
+    "spec_names": [
+      "Génie Civil et Structures",
+      "Hydraulique et Géotechnique"
+    ]
+  },
+  {
+    "id_departement": 66,
+    "nom_departement": "Génie Électrique",
+    "spec_ids": [
+      119,
+      120
+    ],
+    "spec_names": [
+      "Électrotechnique et Automatique",
+      "Électronique et Communications"
+    ]
+  },
+  {
+    "id_departement": 67,
+    "nom_departement": "Génie Mécanique",
+    "spec_ids": [
+      121,
+      122
+    ],
+    "spec_names": [
+      "Mécanique des Solides et Construction",
+      "Énergétique et Thermique"
+    ]
+  },
+  {
+    "id_departement": 68,
+    "nom_departement": "Génie Informatique et Mathématiques",
+    "spec_ids": [
+      123,
+      124
+    ],
+    "spec_names": [
+      "Informatique et Systèmes Embarqués",
+      "Intelligence Artificielle et Data Engineering"
+    ]
+  },
+  {
+    "id_departement": 69,
+    "nom_departement": "Génie des Procédés et Matériaux",
+    "spec_ids": [
+      125,
+      126
+    ],
+    "spec_names": [
+      "Génie Chimique et Procédés",
+      "Science des Matériaux"
+    ]
+  },
+  {
+    "id_departement": 70,
+    "nom_departement": "Langue Anglaise",
+    "spec_ids": [
+      127,
+      128
+    ],
+    "spec_names": [
+      "Anglais des Affaires et Traduction",
+      "Anglais Général et Communication"
+    ]
+  },
+  {
+    "id_departement": 71,
+    "nom_departement": "Langue Française",
+    "spec_ids": [
+      129
+    ],
+    "spec_names": [
+      "Français des Affaires et FOS"
+    ]
+  },
+  {
+    "id_departement": 72,
+    "nom_departement": "Langues Étrangères Diverses",
+    "spec_ids": [
+      130,
+      131
+    ],
+    "spec_names": [
+      "Allemand Professionnel",
+      "Espagnol Professionnel"
+    ]
+  },
+  {
+    "id_departement": 73,
+    "nom_departement": "Arabe pour Non Arabophones",
+    "spec_ids": [
+      132
+    ],
+    "spec_names": [
+      "Arabe Langue Étrangère"
+    ]
+  },
+  {
+    "id_departement": 74,
+    "nom_departement": "Mathématiques-Physique IPEIEM",
+    "spec_ids": [
+      133
+    ],
+    "spec_names": [
+      "Maths-Physique IPEIEM"
+    ]
+  },
+  {
+    "id_departement": 75,
+    "nom_departement": "Physique-Chimie IPEIEM",
+    "spec_ids": [
+      134
+    ],
+    "spec_names": [
+      "Physique-Chimie IPEIEM"
+    ]
+  },
+  {
+    "id_departement": 76,
+    "nom_departement": "Biologie Appliquée",
+    "spec_ids": [
+      135,
+      136,
+      138
+    ],
+    "spec_names": [
+      "Biotechnologie Microbienne",
+      "Biologie Végétale et Environnement",
+      "Master Biotechnologies Avancées"
+    ]
+  },
+  {
+    "id_departement": 77,
+    "nom_departement": "Environnement et Écologie",
+    "spec_ids": [
+      137
+    ],
+    "spec_names": [
+      "Sciences de l'Environnement"
+    ]
+  },
+  {
+    "id_departement": 78,
+    "nom_departement": "Informatique Fondamentale et Appliquée",
+    "spec_ids": [
+      139,
+      140,
+      141
+    ],
+    "spec_names": [
+      "Développement Logiciel et Web",
+      "Réseaux et Sécurité",
+      "Informatique Fondamentale ISI"
+    ]
+  },
+  {
+    "id_departement": 79,
+    "nom_departement": "Systèmes d'Information et Logiciels",
+    "spec_ids": [
+      143
+    ],
+    "spec_names": [
+      "Master Génie Logiciel ISI"
+    ]
+  },
+  {
+    "id_departement": 80,
+    "nom_departement": "Intelligence Artificielle et Data Science",
+    "spec_ids": [
+      142
+    ],
+    "spec_names": [
+      "Master IA et Big Data"
+    ]
+  },
+  {
+    "id_departement": 81,
+    "nom_departement": "Histoire et Patrimoine",
+    "spec_ids": [
+      144,
+      145,
+      146
+    ],
+    "spec_names": [
+      "Histoire Ancienne et Médiévale",
+      "Histoire Contemporaine et Patrimoine",
+      "Master Patrimoine et Archéologie"
+    ]
+  },
+  {
+    "id_departement": 82,
+    "nom_departement": "Géographie et Aménagement",
+    "spec_ids": [
+      147,
+      148,
+      149
+    ],
+    "spec_names": [
+      "Géographie Physique et Environnement",
+      "Géographie Humaine et Urbaine",
+      "Master Aménagement et SIG"
+    ]
+  },
+  {
+    "id_departement": 83,
+    "nom_departement": "Sciences Sociales",
+    "spec_ids": [
+      150,
+      151,
+      152
+    ],
+    "spec_names": [
+      "Sociologie Générale",
+      "Anthropologie et Communication",
+      "Master Sciences Sociales Appliquées"
+    ]
+  },
+  {
+    "id_departement": 84,
+    "nom_departement": "Techniques de Radiologie et Imagerie",
+    "spec_ids": [
+      153
+    ],
+    "spec_names": [
+      "Radiologie et Imagerie Diagnostique"
+    ]
+  },
+  {
+    "id_departement": 85,
+    "nom_departement": "Analyses Biomédicales",
+    "spec_ids": [
+      154
+    ],
+    "spec_names": [
+      "Analyses de Biologie Médicale"
+    ]
+  },
+  {
+    "id_departement": 86,
+    "nom_departement": "Kinésithérapie et Rééducation",
+    "spec_ids": [
+      155
+    ],
+    "spec_names": [
+      "Kinésithérapie et Réhabilitation"
+    ]
+  },
+  {
+    "id_departement": 87,
+    "nom_departement": "Sciences de la Santé Fondamentales",
+    "spec_ids": [
+      156
+    ],
+    "spec_names": [
+      "Sciences Paramédicales et Santé"
+    ]
+  },
+  {
+    "id_departement": 88,
+    "nom_departement": "Techniques de Soins et Pratiques de Santé",
+    "spec_ids": [
+      157
+    ],
+    "spec_names": [
+      "Soins Infirmiers en Urgence"
+    ]
+  },
+  {
+    "id_departement": 89,
+    "nom_departement": "Sciences Infirmières",
+    "spec_ids": [
+      158
+    ],
+    "spec_names": [
+      "Soins Infirmiers Généraux"
+    ]
+  },
+  {
+    "id_departement": 90,
+    "nom_departement": "Obstétrique et Soins Maternels",
+    "spec_ids": [
+      159
+    ],
+    "spec_names": [
+      "Sage-Femme et Soins Néonatals"
+    ]
+  },
+  {
+    "id_departement": 91,
+    "nom_departement": "Droit Privé",
+    "spec_ids": [
+      160,
+      161,
+      162
+    ],
+    "spec_names": [
+      "Droit Civil et Obligations",
+      "Droit Commercial et des Affaires",
+      "Master Droit Privé des Affaires"
+    ]
+  },
+  {
+    "id_departement": 92,
+    "nom_departement": "Droit Public et Sciences Politiques",
+    "spec_ids": [
+      163,
+      164,
+      165
+    ],
+    "spec_names": [
+      "Droit Constitutionnel",
+      "Droit Administratif",
+      "Master Gouvernance et Droit Public"
+    ]
+  },
+  {
+    "id_departement": 93,
+    "nom_departement": "Sciences Sociales",
+    "spec_ids": [
+      166,
+      167
+    ],
+    "spec_names": [
+      "Sociologie et Anthropologie",
+      "Sciences de la Communication"
+    ]
+  },
+  {
+    "id_departement": 94,
+    "nom_departement": "Mathématiques",
+    "spec_ids": [
+      168,
+      169
+    ],
+    "spec_names": [
+      "Mathématiques Pures FSB",
+      "Mathématiques Appliquées FSB"
+    ]
+  },
+  {
+    "id_departement": 95,
+    "nom_departement": "Physique",
+    "spec_ids": [
+      170,
+      171
+    ],
+    "spec_names": [
+      "Physique Fondamentale FSB",
+      "Physique des Matériaux FSB"
+    ]
+  },
+  {
+    "id_departement": 96,
+    "nom_departement": "Chimie",
+    "spec_ids": [
+      172,
+      173
+    ],
+    "spec_names": [
+      "Chimie Organique FSB",
+      "Chimie Analytique FSB"
+    ]
+  },
+  {
+    "id_departement": 97,
+    "nom_departement": "Biologie",
+    "spec_ids": [
+      174,
+      175
+    ],
+    "spec_names": [
+      "Biologie Cellulaire et Moléculaire FSB",
+      "Microbiologie et Biotechnologies FSB"
+    ]
+  },
+  {
+    "id_departement": 98,
+    "nom_departement": "Informatique",
+    "spec_ids": [
+      176,
+      177
+    ],
+    "spec_names": [
+      "Informatique Générale FSB",
+      "Réseaux et Sécurité FSB"
+    ]
+  },
+  {
+    "id_departement": 99,
+    "nom_departement": "Sciences Économiques",
+    "spec_ids": [
+      178,
+      179
+    ],
+    "spec_names": [
+      "Économie du Développement FSEGN",
+      "Économie et Finance Internationale FSEGN"
+    ]
+  },
+  {
+    "id_departement": 100,
+    "nom_departement": "Gestion",
+    "spec_ids": [
+      180,
+      181,
+      182,
+      183
+    ],
+    "spec_names": [
+      "Comptabilité et Finance FSEGN",
+      "Management des Organisations FSEGN",
+      "Master Management Stratégique FSEGN",
+      "Master Comptabilité et Audit FSEGN"
+    ]
+  },
+  {
+    "id_departement": 101,
+    "nom_departement": "Méthodes Quantitatives",
+    "spec_ids": [
+      184
+    ],
+    "spec_names": [
+      "Statistiques de Gestion"
+    ]
+  },
+  {
+    "id_departement": 102,
+    "nom_departement": "Architecture et Projet",
+    "spec_ids": [
+      185,
+      186,
+      187
+    ],
+    "spec_names": [
+      "Architecture et Habitat",
+      "Architecture Durable et Bioclimatique",
+      "Master Architecture et Patrimoine"
+    ]
+  },
+  {
+    "id_departement": 103,
+    "nom_departement": "Urbanisme et Territoire",
+    "spec_ids": [
+      188
+    ],
+    "spec_names": [
+      "Master Urbanisme Durable"
+    ]
+  },
+  {
+    "id_departement": 104,
+    "nom_departement": "Génie Informatique et Mathématiques",
+    "spec_ids": [
+      189
+    ],
+    "spec_names": [
+      "Ingénierie Informatique EPT"
+    ]
+  },
+  {
+    "id_departement": 105,
+    "nom_departement": "Génie Civil et Environnement",
+    "spec_ids": [
+      190
+    ],
+    "spec_names": [
+      "Ingénierie Civile et Environnement EPT"
+    ]
+  },
+  {
+    "id_departement": 106,
+    "nom_departement": "Génie Électrique et Automatique",
+    "spec_ids": [
+      191
+    ],
+    "spec_names": [
+      "Ingénierie Électrique EPT"
+    ]
+  },
+  {
+    "id_departement": 107,
+    "nom_departement": "Informatique et Réseaux",
+    "spec_ids": [
+      192,
+      193,
+      194
+    ],
+    "spec_names": [
+      "Développement Logiciel ESTI",
+      "Réseaux et Cybersécurité ESTI",
+      "Master Génie Logiciel ESTI"
+    ]
+  },
+  {
+    "id_departement": 108,
+    "nom_departement": "Technologies Industrielles",
+    "spec_ids": [
+      195,
+      196
+    ],
+    "spec_names": [
+      "Génie Industriel ESTI",
+      "Systèmes Embarqués ESTI"
+    ]
+  },
+  {
+    "id_departement": 109,
+    "nom_departement": "Statistiques et Actuariat",
+    "spec_ids": [
+      197,
+      198
+    ],
+    "spec_names": [
+      "Statistiques et Analyse de Données",
+      "Actuariat et Gestion des Risques"
+    ]
+  },
+  {
+    "id_departement": 110,
+    "nom_departement": "Informatique Décisionnelle",
+    "spec_ids": [
+      199,
+      200
+    ],
+    "spec_names": [
+      "Informatique Décisionnelle ESSAIT",
+      "Data Science et IA"
+    ]
+  },
+  {
+    "id_departement": 111,
+    "nom_departement": "Cinéma et Audiovisuel",
+    "spec_ids": [
+      201,
+      202,
+      203
+    ],
+    "spec_names": [
+      "Réalisation Cinématographique",
+      "Production et Montage",
+      "Master Cinéma et Création"
+    ]
+  },
+  {
+    "id_departement": 112,
+    "nom_departement": "Médias Numériques et Communication",
+    "spec_ids": [
+      204
+    ],
+    "spec_names": [
+      "Journalisme et Médias Numériques"
+    ]
+  },
+  {
+    "id_departement": 113,
+    "nom_departement": "Mathématiques-Physique Bizerte",
+    "spec_ids": [
+      205
+    ],
+    "spec_names": [
+      "Maths-Physique Bizerte"
+    ]
+  },
+  {
+    "id_departement": 114,
+    "nom_departement": "Physique-Chimie Bizerte",
+    "spec_ids": [
+      206
+    ],
+    "spec_names": [
+      "Physique-Chimie Bizerte"
+    ]
+  },
+  {
+    "id_departement": 115,
+    "nom_departement": "Finance et Comptabilité",
+    "spec_ids": [
+      210,
+      211,
+      212,
+      213,
+      214
+    ],
+    "spec_names": [
+      "Finance d'Entreprise IHEC",
+      "Banque et Marchés Financiers IHEC",
+      "Master Finance d'Entreprise IHEC",
+      "Master Finance Quantitative IHEC",
+      "Comptabilité et Audit IHEC"
+    ]
+  },
+  {
+    "id_departement": 116,
+    "nom_departement": "Management et Ressources Humaines",
+    "spec_ids": [
+      215,
+      216
+    ],
+    "spec_names": [
+      "Management des Organisations IHEC",
+      "GRH et Développement Organisationnel IHEC"
+    ]
+  },
+  {
+    "id_departement": 117,
+    "nom_departement": "Marketing et Commerce International",
+    "spec_ids": [
+      217,
+      218
+    ],
+    "spec_names": [
+      "Marketing et Communication IHEC",
+      "Master Marketing Digital IHEC"
+    ]
+  },
+  {
+    "id_departement": 118,
+    "nom_departement": "Systèmes d'Information et Technologies",
+    "spec_ids": [
+      219
+    ],
+    "spec_names": [
+      "Systèmes d'Information et Gestion IHEC"
+    ]
+  },
+  {
+    "id_departement": 119,
+    "nom_departement": "Génie Informatique",
+    "spec_ids": [
+      220
+    ],
+    "spec_names": [
+      "Génie Informatique INSAT"
+    ]
+  },
+  {
+    "id_departement": 120,
+    "nom_departement": "Génie Électrique et Télécommunications",
+    "spec_ids": [
+      221
+    ],
+    "spec_names": [
+      "Télécommunications INSAT"
+    ]
+  },
+  {
+    "id_departement": 121,
+    "nom_departement": "Génie des Procédés Chimiques",
+    "spec_ids": [
+      222
+    ],
+    "spec_names": [
+      "Génie des Procédés INSAT"
+    ]
+  },
+  {
+    "id_departement": 122,
+    "nom_departement": "Technologies Informatiques",
+    "spec_ids": [
+      223
+    ],
+    "spec_names": [
+      "Développement Logiciel Mateur"
+    ]
+  },
+  {
+    "id_departement": 123,
+    "nom_departement": "Technologies Industrielles Mateur",
+    "spec_ids": [
+      224
+    ],
+    "spec_names": [
+      "Génie Industriel Mateur"
+    ]
+  },
+  {
+    "id_departement": 124,
+    "nom_departement": "Mathématiques-Physique Nabeul",
+    "spec_ids": [
+      207
+    ],
+    "spec_names": [
+      "Maths-Physique Nabeul"
+    ]
+  },
+  {
+    "id_departement": 125,
+    "nom_departement": "Physique-Chimie Nabeul",
+    "spec_ids": [
+      208
+    ],
+    "spec_names": [
+      "Physique-Chimie Nabeul"
+    ]
+  },
+  {
+    "id_departement": 126,
+    "nom_departement": "Sciences et Techniques La Marsa",
+    "spec_ids": [
+      209
+    ],
+    "spec_names": [
+      "Sciences et Techniques La Marsa"
+    ]
+  },
+  {
+    "id_departement": 127,
+    "nom_departement": "Arts Plastiques et Design",
+    "spec_ids": [
+      225,
+      226
+    ],
+    "spec_names": [
+      "Arts Plastiques Nabeul",
+      "Design Graphique et Intérieur Nabeul"
+    ]
+  },
+  {
+    "id_departement": 128,
+    "nom_departement": "Arts et Patrimoine",
+    "spec_ids": [
+      227
+    ],
+    "spec_names": [
+      "Master Arts et Patrimoine Nabeul"
+    ]
+  },
+  {
+    "id_departement": 129,
+    "nom_departement": "Technologies du Bâtiment",
+    "spec_ids": [
+      228,
+      229
+    ],
+    "spec_names": [
+      "Technologies du Bâtiment",
+      "Réhabilitation et Construction Durable"
+    ]
+  },
+  {
+    "id_departement": 130,
+    "nom_departement": "Urbanisme et Environnement",
+    "spec_ids": [
+      230
+    ],
+    "spec_names": [
+      "Urbanisme et SIG"
+    ]
+  },
+  {
+    "id_departement": 131,
+    "nom_departement": "Anglais Professionnel",
+    "spec_ids": [
+      231,
+      234
+    ],
+    "spec_names": [
+      "Anglais Professionnel et Traduction",
+      "Master Traduction Multilingue"
+    ]
+  },
+  {
+    "id_departement": 132,
+    "nom_departement": "Français Professionnel",
+    "spec_ids": [
+      232
+    ],
+    "spec_names": [
+      "Français Professionnel et Communication"
+    ]
+  },
+  {
+    "id_departement": 133,
+    "nom_departement": "Langues et Informatique",
+    "spec_ids": [
+      233
+    ],
+    "spec_names": [
+      "Langues et Technologies de l'Information"
+    ]
+  },
+  {
+    "id_departement": 134,
+    "nom_departement": "Langues Appliquées Nabeul",
+    "spec_ids": [
+      235
+    ],
+    "spec_names": [
+      "Langues Appliquées et Informatique Nabeul"
+    ]
+  },
+  {
+    "id_departement": 135,
+    "nom_departement": "Sciences de l'Environnement",
+    "spec_ids": [
+      236,
+      237
+    ],
+    "spec_names": [
+      "Sciences de l'Environnement ISSTE",
+      "Master Gestion Environnementale"
+    ]
+  },
+  {
+    "id_departement": 136,
+    "nom_departement": "Biotechnologie Environnementale",
+    "spec_ids": [
+      238
+    ],
+    "spec_names": [
+      "Master Biotechnologie Environnementale"
+    ]
+  },
+  {
+    "id_departement": 137,
+    "nom_departement": "Comptabilité et Gestion",
+    "spec_ids": [
+      239,
+      241
+    ],
+    "spec_names": [
+      "Comptabilité et Contrôle ISCAEB",
+      "Master Comptabilité et Audit ISCAEB"
+    ]
+  },
+  {
+    "id_departement": 138,
+    "nom_departement": "Finance et Administration",
+    "spec_ids": [
+      240
+    ],
+    "spec_names": [
+      "Finance et Administration des Entreprises"
+    ]
+  },
+  {
+    "id_departement": 139,
+    "nom_departement": "Génie Civil ENIB",
+    "spec_ids": [
+      242
+    ],
+    "spec_names": [
+      "Génie Civil ENIB"
+    ]
+  },
+  {
+    "id_departement": 140,
+    "nom_departement": "Génie Électrique ENIB",
+    "spec_ids": [
+      243
+    ],
+    "spec_names": [
+      "Génie Électrique ENIB"
+    ]
+  },
+  {
+    "id_departement": 141,
+    "nom_departement": "Génie Mécanique ENIB",
+    "spec_ids": [
+      244
+    ],
+    "spec_names": [
+      "Génie Mécanique ENIB"
+    ]
+  },
+  {
+    "id_departement": 142,
+    "nom_departement": "Génie Informatique ENIB",
+    "spec_ids": [
+      245
+    ],
+    "spec_names": [
+      "Génie Informatique ENIB"
+    ]
+  },
+  {
+    "id_departement": 143,
+    "nom_departement": "Mathématiques",
+    "spec_ids": [
+      246,
+      247,
+      248
+    ],
+    "spec_names": [
+      "Mathématiques Pures",
+      "Mathématiques Appliquées",
+      "Master Mathématiques Appliquées"
+    ]
+  },
+  {
+    "id_departement": 144,
+    "nom_departement": "Physique",
+    "spec_ids": [
+      249,
+      250,
+      251
+    ],
+    "spec_names": [
+      "Physique Fondamentale",
+      "Physique des Matériaux",
+      "Master Physique des Matériaux"
+    ]
+  },
+  {
+    "id_departement": 145,
+    "nom_departement": "Chimie",
+    "spec_ids": [
+      252,
+      253
+    ],
+    "spec_names": [
+      "Chimie Organique",
+      "Chimie Analytique et Physico-chimie"
+    ]
+  },
+  {
+    "id_departement": 146,
+    "nom_departement": "Biologie et Géologie",
+    "spec_ids": [
+      254,
+      255,
+      256,
+      257,
+      258
+    ],
+    "spec_names": [
+      "Biologie Cellulaire et Moléculaire",
+      "Microbiologie et Biotechnologies",
+      "Géologie des Ressources Minières",
+      "Hydrogéologie et Environnement",
+      "Master Biologie et Environnement"
+    ]
+  },
+  {
+    "id_departement": 147,
+    "nom_departement": "Informatique",
+    "spec_ids": [
+      259,
+      260,
+      261
+    ],
+    "spec_names": [
+      "Développement Logiciel",
+      "Réseaux et Sécurité Informatique",
+      "Master Informatique Avancée"
+    ]
+  },
+  {
+    "id_departement": 148,
+    "nom_departement": "Génie Mécanique et Énergétique",
+    "spec_ids": [
+      262,
+      263
+    ],
+    "spec_names": [
+      "Génie Mécanique et Production",
+      "Énergétique et Thermique"
+    ]
+  },
+  {
+    "id_departement": 149,
+    "nom_departement": "Génie Électrique et Automatique",
+    "spec_ids": [
+      264,
+      265
+    ],
+    "spec_names": [
+      "Électrotechnique et Automatique",
+      "Électronique et Télécommunications"
+    ]
+  },
+  {
+    "id_departement": 150,
+    "nom_departement": "Génie Informatique",
+    "spec_ids": [
+      266,
+      267
+    ],
+    "spec_names": [
+      "Informatique et Systèmes Embarqués",
+      "Intelligence Artificielle et Data Engineering"
+    ]
+  },
+  {
+    "id_departement": 151,
+    "nom_departement": "Génie Civil et Mines",
+    "spec_ids": [
+      268,
+      269
+    ],
+    "spec_names": [
+      "Génie Civil",
+      "Génie des Mines et Géotechnique"
+    ]
+  },
+  {
+    "id_departement": 152,
+    "nom_departement": "Mathématiques-Physique Gafsa",
+    "spec_ids": [
+      270
+    ],
+    "spec_names": [
+      "Maths-Physique Gafsa"
+    ]
+  },
+  {
+    "id_departement": 153,
+    "nom_departement": "Physique-Chimie Gafsa",
+    "spec_ids": [
+      271
+    ],
+    "spec_names": [
+      "Physique-Chimie Gafsa"
+    ]
+  },
+  {
+    "id_departement": 154,
+    "nom_departement": "Études Arabes et Humanités",
+    "spec_ids": [
+      272,
+      273
+    ],
+    "spec_names": [
+      "Traduction et Communication Arabe",
+      "Rédaction et Communication en Arabe"
+    ]
+  },
+  {
+    "id_departement": 155,
+    "nom_departement": "Études Françaises et Anglaises Appliquées",
+    "spec_ids": [
+      274,
+      275
+    ],
+    "spec_names": [
+      "Français des Affaires et Traduction",
+      "Anglais des Affaires et Traduction"
+    ]
+  },
+  {
+    "id_departement": 156,
+    "nom_departement": "Tourisme et Patrimoine",
+    "spec_ids": [
+      276,
+      277,
+      278
+    ],
+    "spec_names": [
+      "Guide Touristique et Patrimoine",
+      "Gestion des Sites Patrimoniaux",
+      "Master Patrimoine et Développement"
+    ]
+  },
+  {
+    "id_departement": 157,
+    "nom_departement": "Gestion et Finance",
+    "spec_ids": [
+      279,
+      280,
+      281,
+      282,
+      283
+    ],
+    "spec_names": [
+      "Management des Organisations",
+      "Ressources Humaines",
+      "Finance d'Entreprise",
+      "Comptabilité et Fiscalité",
+      "Master Management Stratégique"
+    ]
+  },
+  {
+    "id_departement": 158,
+    "nom_departement": "Sciences Économiques",
+    "spec_ids": [
+      284,
+      285,
+      286
+    ],
+    "spec_names": [
+      "Économie du Développement",
+      "Économie et Gestion des Ressources",
+      "Master Économie Régionale"
+    ]
+  },
+  {
+    "id_departement": 159,
+    "nom_departement": "Droit et Administration",
+    "spec_ids": [
+      287
+    ],
+    "spec_names": [
+      "Droit Commercial et Administratif"
+    ]
+  },
+  {
+    "id_departement": 160,
+    "nom_departement": "Arts Plastiques et Métiers d'Art",
+    "spec_ids": [
+      288,
+      289,
+      292
+    ],
+    "spec_names": [
+      "Peinture et Expression Artistique",
+      "Sculpture et Céramique",
+      "Master Arts Créatifs et Patrimoine"
+    ]
+  },
+  {
+    "id_departement": 161,
+    "nom_departement": "Design et Arts Numériques",
+    "spec_ids": [
+      290,
+      291
+    ],
+    "spec_names": [
+      "Design Graphique",
+      "Design d'Intérieur et Décoration"
+    ]
+  },
+  {
+    "id_departement": 162,
+    "nom_departement": "Technologies Informatiques",
+    "spec_ids": [
+      293,
+      294,
+      297
+    ],
+    "spec_names": [
+      "Développement Web et Mobile",
+      "Réseaux et Cybersécurité",
+      "Master Informatique Avancée Appliquée"
+    ]
+  },
+  {
+    "id_departement": 163,
+    "nom_departement": "Technologies Industrielles",
+    "spec_ids": [
+      295,
+      296
+    ],
+    "spec_names": [
+      "Génie Industriel et Maintenance",
+      "Automatismes et Systèmes de Production"
+    ]
+  },
+  {
+    "id_departement": 164,
+    "nom_departement": "Sciences et Technologies de l'Énergie",
+    "spec_ids": [
+      298,
+      299,
+      301
+    ],
+    "spec_names": [
+      "Énergie Solaire et Photovoltaïque",
+      "Énergie Éolienne et Efficacité Énergétique",
+      "Master Énergies Renouvelables"
+    ]
+  },
+  {
+    "id_departement": 165,
+    "nom_departement": "Génie des Procédés Énergétiques",
+    "spec_ids": [
+      300
+    ],
+    "spec_names": [
+      "Procédés Thermiques et Matériaux"
+    ]
+  },
+  {
+    "id_departement": 166,
+    "nom_departement": "Humanités et Sciences Sociales Tozeur",
+    "spec_ids": [
+      302
+    ],
+    "spec_names": [
+      "Sciences Humaines et Histoire Tozeur"
+    ]
+  },
+  {
+    "id_departement": 167,
+    "nom_departement": "Langues et Communication Tozeur",
+    "spec_ids": [
+      303
+    ],
+    "spec_names": [
+      "Langues Étrangères Appliquées Tozeur"
+    ]
+  },
+  {
+    "id_departement": 168,
+    "nom_departement": "Gestion et Informatique Tozeur",
+    "spec_ids": [
+      304,
+      305
+    ],
+    "spec_names": [
+      "Gestion des Entreprises Tozeur",
+      "Informatique de Gestion Tozeur"
+    ]
+  },
+  {
+    "id_departement": 169,
+    "nom_departement": "Technologies de l'Informatique",
+    "spec_ids": [
+      306,
+      307,
+      1053,
+      1054
+    ],
+    "spec_names": [
+      "Développement des Systèmes d'Information Radès",
+      "Réseaux Informatiques et Sécurité Radès",
+      "Informatique Appliquee",
+      "Reseaux et Telecommunications"
+    ]
+  },
+  {
+    "id_departement": 170,
+    "nom_departement": "Génie Électrique",
+    "spec_ids": [
+      308
+    ],
+    "spec_names": [
+      "Électrotechnique et Automatismes Industriels Radès"
+    ]
+  },
+  {
+    "id_departement": 171,
+    "nom_departement": "Génie Mécanique",
+    "spec_ids": [
+      309
+    ],
+    "spec_names": [
+      "Maintenance Industrielle Radès"
+    ]
+  },
+  {
+    "id_departement": 172,
+    "nom_departement": "Gestion",
+    "spec_ids": [
+      310
+    ],
+    "spec_names": [
+      "Gestion des Entreprises Radès"
+    ]
+  },
+  {
+    "id_departement": 173,
+    "nom_departement": "Technologies de l'Informatique",
+    "spec_ids": [
+      311,
+      312
+    ],
+    "spec_names": [
+      "Développement des Systèmes d'Information Charguia",
+      "Réseaux et Cybersécurité Charguia"
+    ]
+  },
+  {
+    "id_departement": 174,
+    "nom_departement": "Génie Électrique",
+    "spec_ids": [
+      313
+    ],
+    "spec_names": [
+      "Électrotechnique et Automatismes Charguia"
+    ]
+  },
+  {
+    "id_departement": 175,
+    "nom_departement": "Génie Industriel",
+    "spec_ids": [
+      314
+    ],
+    "spec_names": [
+      "Génie Industriel et Logistique Charguia"
+    ]
+  },
+  {
+    "id_departement": 176,
+    "nom_departement": "Gestion",
+    "spec_ids": [
+      315
+    ],
+    "spec_names": [
+      "Gestion des Entreprises Charguia"
+    ]
+  },
+  {
+    "id_departement": 177,
+    "nom_departement": "Technologies de l'Informatique",
+    "spec_ids": [
+      316
+    ],
+    "spec_names": [
+      "Développement des SI Kélibia"
+    ]
+  },
+  {
+    "id_departement": 178,
+    "nom_departement": "Gestion",
+    "spec_ids": [
+      317
+    ],
+    "spec_names": [
+      "Gestion des Entreprises Kélibia"
+    ]
+  },
+  {
+    "id_departement": 179,
+    "nom_departement": "Tourisme et Hôtellerie",
+    "spec_ids": [
+      318
+    ],
+    "spec_names": [
+      "Gestion Hôtelière et Tourisme Kélibia"
+    ]
+  },
+  {
+    "id_departement": 180,
+    "nom_departement": "Technologies de l'Informatique",
+    "spec_ids": [
+      319
+    ],
+    "spec_names": [
+      "Développement des SI Nabeul"
+    ]
+  },
+  {
+    "id_departement": 181,
+    "nom_departement": "Génie Électrique",
+    "spec_ids": [
+      320
+    ],
+    "spec_names": [
+      "Électrotechnique et Automatismes Nabeul"
+    ]
+  },
+  {
+    "id_departement": 182,
+    "nom_departement": "Gestion",
+    "spec_ids": [
+      321
+    ],
+    "spec_names": [
+      "Gestion des Entreprises Nabeul"
+    ]
+  },
+  {
+    "id_departement": 183,
+    "nom_departement": "Technologies de l'Informatique",
+    "spec_ids": [
+      322
+    ],
+    "spec_names": [
+      "Développement des SI Zaghouan"
+    ]
+  },
+  {
+    "id_departement": 184,
+    "nom_departement": "Génie Civil et Bâtiment",
+    "spec_ids": [
+      323
+    ],
+    "spec_names": [
+      "Génie Civil Zaghouan"
+    ]
+  },
+  {
+    "id_departement": 185,
+    "nom_departement": "Gestion",
+    "spec_ids": [
+      324
+    ],
+    "spec_names": [
+      "Gestion des Entreprises Zaghouan"
+    ]
+  },
+  {
+    "id_departement": 186,
+    "nom_departement": "Technologies des Télécommunications",
+    "spec_ids": [
+      325,
+      328
+    ],
+    "spec_names": [
+      "Réseaux et Systèmes de Télécommunications",
+      "Master Télécommunications Avancées"
+    ]
+  },
+  {
+    "id_departement": 187,
+    "nom_departement": "Technologies Multimédia et Internet",
+    "spec_ids": [
+      326
+    ],
+    "spec_names": [
+      "Développement Web et Multimédia"
+    ]
+  },
+  {
+    "id_departement": 188,
+    "nom_departement": "Cybersécurité et Réseaux",
+    "spec_ids": [
+      327,
+      329
+    ],
+    "spec_names": [
+      "Sécurité Informatique et Réseaux",
+      "Master Cybersécurité Avancée"
+    ]
+  },
+  {
+    "id_departement": 189,
+    "nom_departement": "Technologies de l'Informatique",
+    "spec_ids": [
+      330
+    ],
+    "spec_names": [
+      "Développement des SI Bizerte"
+    ]
+  },
+  {
+    "id_departement": 190,
+    "nom_departement": "Génie Électrique",
+    "spec_ids": [
+      331
+    ],
+    "spec_names": [
+      "Électrotechnique Bizerte"
+    ]
+  },
+  {
+    "id_departement": 191,
+    "nom_departement": "Génie Mécanique",
+    "spec_ids": [
+      332
+    ],
+    "spec_names": [
+      "Génie Mécanique Bizerte"
+    ]
+  },
+  {
+    "id_departement": 192,
+    "nom_departement": "Gestion",
+    "spec_ids": [
+      333
+    ],
+    "spec_names": [
+      "Gestion des Entreprises Bizerte"
+    ]
+  },
+  {
+    "id_departement": 193,
+    "nom_departement": "Technologies de l'Informatique",
+    "spec_ids": [
+      334
+    ],
+    "spec_names": [
+      "Développement des SI Béja"
+    ]
+  },
+  {
+    "id_departement": 194,
+    "nom_departement": "Génie Civil et Environnement",
+    "spec_ids": [
+      335
+    ],
+    "spec_names": [
+      "Génie Civil Béja"
+    ]
+  },
+  {
+    "id_departement": 195,
+    "nom_departement": "Gestion",
+    "spec_ids": [
+      336
+    ],
+    "spec_names": [
+      "Gestion des Entreprises Béja"
+    ]
+  },
+  {
+    "id_departement": 196,
+    "nom_departement": "Technologies de l'Informatique",
+    "spec_ids": [
+      337
+    ],
+    "spec_names": [
+      "Développement des SI Jendouba"
+    ]
+  },
+  {
+    "id_departement": 197,
+    "nom_departement": "Génie Électrique",
+    "spec_ids": [
+      338
+    ],
+    "spec_names": [
+      "Électrotechnique Jendouba"
+    ]
+  },
+  {
+    "id_departement": 198,
+    "nom_departement": "Gestion",
+    "spec_ids": [
+      339
+    ],
+    "spec_names": [
+      "Gestion des Entreprises Jendouba"
+    ]
+  },
+  {
+    "id_departement": 199,
+    "nom_departement": "Technologies de l'Informatique",
+    "spec_ids": [
+      340
+    ],
+    "spec_names": [
+      "Développement des SI Kef"
+    ]
+  },
+  {
+    "id_departement": 200,
+    "nom_departement": "Génie Civil et Bâtiment",
+    "spec_ids": [
+      341
+    ],
+    "spec_names": [
+      "Génie Civil Kef"
+    ]
+  },
+  {
+    "id_departement": 201,
+    "nom_departement": "Gestion",
+    "spec_ids": [
+      342
+    ],
+    "spec_names": [
+      "Gestion des Entreprises Kef"
+    ]
+  },
+  {
+    "id_departement": 202,
+    "nom_departement": "Technologies de l'Informatique",
+    "spec_ids": [
+      343
+    ],
+    "spec_names": [
+      "Développement des SI Siliana"
+    ]
+  },
+  {
+    "id_departement": 203,
+    "nom_departement": "Génie Industriel",
+    "spec_ids": [
+      344
+    ],
+    "spec_names": [
+      "Génie Industriel Siliana"
+    ]
+  },
+  {
+    "id_departement": 204,
+    "nom_departement": "Gestion",
+    "spec_ids": [
+      345
+    ],
+    "spec_names": [
+      "Gestion des Entreprises Siliana"
+    ]
+  },
+  {
+    "id_departement": 205,
+    "nom_departement": "Technologies de l'Informatique",
+    "spec_ids": [
+      346
+    ],
+    "spec_names": [
+      "Développement des SI Sousse"
+    ]
+  },
+  {
+    "id_departement": 206,
+    "nom_departement": "Génie Électrique",
+    "spec_ids": [
+      347
+    ],
+    "spec_names": [
+      "Électrotechnique Sousse"
+    ]
+  },
+  {
+    "id_departement": 207,
+    "nom_departement": "Génie Mécanique",
+    "spec_ids": [
+      348
+    ],
+    "spec_names": [
+      "Génie Mécanique Sousse"
+    ]
+  },
+  {
+    "id_departement": 208,
+    "nom_departement": "Gestion",
+    "spec_ids": [
+      349
+    ],
+    "spec_names": [
+      "Gestion des Entreprises Sousse"
+    ]
+  },
+  {
+    "id_departement": 209,
+    "nom_departement": "Technologies de l'Informatique",
+    "spec_ids": [
+      350
+    ],
+    "spec_names": [
+      "Développement des SI Ksar Hellal"
+    ]
+  },
+  {
+    "id_departement": 210,
+    "nom_departement": "Génie Textile",
+    "spec_ids": [
+      351
+    ],
+    "spec_names": [
+      "Génie Textile Ksar Hellal"
+    ]
+  },
+  {
+    "id_departement": 211,
+    "nom_departement": "Gestion",
+    "spec_ids": [
+      352
+    ],
+    "spec_names": [
+      "Gestion des Entreprises Ksar Hellal"
+    ]
+  },
+  {
+    "id_departement": 212,
+    "nom_departement": "Technologies de l'Informatique",
+    "spec_ids": [
+      353
+    ],
+    "spec_names": [
+      "Développement des SI Mahdia"
+    ]
+  },
+  {
+    "id_departement": 213,
+    "nom_departement": "Génie Civil et Bâtiment",
+    "spec_ids": [
+      354
+    ],
+    "spec_names": [
+      "Génie Civil Mahdia"
+    ]
+  },
+  {
+    "id_departement": 214,
+    "nom_departement": "Gestion",
+    "spec_ids": [
+      355
+    ],
+    "spec_names": [
+      "Gestion des Entreprises Mahdia"
+    ]
+  },
+  {
+    "id_departement": 215,
+    "nom_departement": "Technologies de l'Informatique",
+    "spec_ids": [
+      356
+    ],
+    "spec_names": [
+      "Développement des SI Sfax"
+    ]
+  },
+  {
+    "id_departement": 216,
+    "nom_departement": "Génie Électrique",
+    "spec_ids": [
+      357
+    ],
+    "spec_names": [
+      "Électrotechnique Sfax"
+    ]
+  },
+  {
+    "id_departement": 217,
+    "nom_departement": "Génie Mécanique",
+    "spec_ids": [
+      358
+    ],
+    "spec_names": [
+      "Génie Mécanique Sfax"
+    ]
+  },
+  {
+    "id_departement": 218,
+    "nom_departement": "Gestion",
+    "spec_ids": [
+      359
+    ],
+    "spec_names": [
+      "Gestion des Entreprises Sfax"
+    ]
+  },
+  {
+    "id_departement": 219,
+    "nom_departement": "Technologies de l'Informatique",
+    "spec_ids": [
+      360
+    ],
+    "spec_names": [
+      "Développement des SI Kairouan"
+    ]
+  },
+  {
+    "id_departement": 220,
+    "nom_departement": "Génie Électrique",
+    "spec_ids": [
+      361
+    ],
+    "spec_names": [
+      "Électrotechnique Kairouan"
+    ]
+  },
+  {
+    "id_departement": 221,
+    "nom_departement": "Gestion",
+    "spec_ids": [
+      362
+    ],
+    "spec_names": [
+      "Gestion des Entreprises Kairouan"
+    ]
+  },
+  {
+    "id_departement": 222,
+    "nom_departement": "Technologies de l'Informatique",
+    "spec_ids": [
+      363
+    ],
+    "spec_names": [
+      "Développement des SI Kasserine"
+    ]
+  },
+  {
+    "id_departement": 223,
+    "nom_departement": "Génie Mécanique",
+    "spec_ids": [
+      364
+    ],
+    "spec_names": [
+      "Génie Mécanique Kasserine"
+    ]
+  },
+  {
+    "id_departement": 224,
+    "nom_departement": "Gestion",
+    "spec_ids": [
+      365
+    ],
+    "spec_names": [
+      "Gestion des Entreprises Kasserine"
+    ]
+  },
+  {
+    "id_departement": 225,
+    "nom_departement": "Technologies de l'Informatique",
+    "spec_ids": [
+      366
+    ],
+    "spec_names": [
+      "Développement des SI Sidi Bouzid"
+    ]
+  },
+  {
+    "id_departement": 226,
+    "nom_departement": "Génie Industriel",
+    "spec_ids": [
+      367
+    ],
+    "spec_names": [
+      "Génie Industriel Sidi Bouzid"
+    ]
+  },
+  {
+    "id_departement": 227,
+    "nom_departement": "Gestion",
+    "spec_ids": [
+      368
+    ],
+    "spec_names": [
+      "Gestion des Entreprises Sidi Bouzid"
+    ]
+  },
+  {
+    "id_departement": 228,
+    "nom_departement": "Technologies de l'Informatique",
+    "spec_ids": [
+      369
+    ],
+    "spec_names": [
+      "Développement des SI Gabès"
+    ]
+  },
+  {
+    "id_departement": 229,
+    "nom_departement": "Génie Électrique",
+    "spec_ids": [
+      370
+    ],
+    "spec_names": [
+      "Électrotechnique Gabès"
+    ]
+  },
+  {
+    "id_departement": 230,
+    "nom_departement": "Génie des Procédés",
+    "spec_ids": [
+      371
+    ],
+    "spec_names": [
+      "Génie des Procédés Gabès"
+    ]
+  },
+  {
+    "id_departement": 231,
+    "nom_departement": "Gestion",
+    "spec_ids": [
+      372
+    ],
+    "spec_names": [
+      "Gestion des Entreprises Gabès"
+    ]
+  },
+  {
+    "id_departement": 232,
+    "nom_departement": "Technologies de l'Informatique",
+    "spec_ids": [
+      373
+    ],
+    "spec_names": [
+      "Développement des SI Djerba"
+    ]
+  },
+  {
+    "id_departement": 233,
+    "nom_departement": "Tourisme et Hôtellerie",
+    "spec_ids": [
+      374
+    ],
+    "spec_names": [
+      "Gestion Hôtelière et Tourisme Djerba"
+    ]
+  },
+  {
+    "id_departement": 234,
+    "nom_departement": "Gestion",
+    "spec_ids": [
+      375
+    ],
+    "spec_names": [
+      "Gestion des Entreprises Djerba"
+    ]
+  },
+  {
+    "id_departement": 235,
+    "nom_departement": "Technologies de l'Informatique",
+    "spec_ids": [
+      376
+    ],
+    "spec_names": [
+      "Développement des SI Médenine"
+    ]
+  },
+  {
+    "id_departement": 236,
+    "nom_departement": "Génie Civil et Bâtiment",
+    "spec_ids": [
+      377
+    ],
+    "spec_names": [
+      "Génie Civil Médenine"
+    ]
+  },
+  {
+    "id_departement": 237,
+    "nom_departement": "Gestion",
+    "spec_ids": [
+      378
+    ],
+    "spec_names": [
+      "Gestion des Entreprises Médenine"
+    ]
+  },
+  {
+    "id_departement": 238,
+    "nom_departement": "Technologies de l'Informatique",
+    "spec_ids": [
+      379
+    ],
+    "spec_names": [
+      "Développement des SI Tataouine"
+    ]
+  },
+  {
+    "id_departement": 239,
+    "nom_departement": "Gestion",
+    "spec_ids": [
+      380
+    ],
+    "spec_names": [
+      "Gestion des Entreprises Tataouine"
+    ]
+  },
+  {
+    "id_departement": 240,
+    "nom_departement": "Technologies de l'Informatique",
+    "spec_ids": [
+      381
+    ],
+    "spec_names": [
+      "Développement des SI Gafsa ISET"
+    ]
+  },
+  {
+    "id_departement": 241,
+    "nom_departement": "Génie Électrique",
+    "spec_ids": [
+      382
+    ],
+    "spec_names": [
+      "Électrotechnique Gafsa ISET"
+    ]
+  },
+  {
+    "id_departement": 242,
+    "nom_departement": "Gestion",
+    "spec_ids": [
+      383
+    ],
+    "spec_names": [
+      "Gestion des Entreprises Gafsa ISET"
+    ]
+  },
+  {
+    "id_departement": 243,
+    "nom_departement": "Technologies de l'Informatique",
+    "spec_ids": [
+      384
+    ],
+    "spec_names": [
+      "Développement des SI Kébili"
+    ]
+  },
+  {
+    "id_departement": 244,
+    "nom_departement": "Gestion",
+    "spec_ids": [
+      385
+    ],
+    "spec_names": [
+      "Gestion des Entreprises Kébili"
+    ]
+  },
+  {
+    "id_departement": 245,
+    "nom_departement": "Technologies de l'Informatique",
+    "spec_ids": [
+      386
+    ],
+    "spec_names": [
+      "Développement des SI Tozeur"
+    ]
+  },
+  {
+    "id_departement": 246,
+    "nom_departement": "Tourisme et Hôtellerie",
+    "spec_ids": [
+      387
+    ],
+    "spec_names": [
+      "Gestion Hôtelière et Tourisme Saharien Tozeur"
+    ]
+  },
+  {
+    "id_departement": 247,
+    "nom_departement": "Gestion",
+    "spec_ids": [
+      388
+    ],
+    "spec_names": [
+      "Gestion des Entreprises Tozeur"
+    ]
+  },
+  {
+    "id_departement": 248,
+    "nom_departement": "Droit",
+    "spec_ids": [
+      389,
+      390,
+      391,
+      392
+    ],
+    "spec_names": [
+      "Droit Privé",
+      "Droit Public et Sciences Politiques",
+      "Master Droit des Affaires",
+      "Master Droit Public et Gouvernance"
+    ]
+  },
+  {
+    "id_departement": 249,
+    "nom_departement": "Sciences Économiques",
+    "spec_ids": [
+      393,
+      394,
+      395
+    ],
+    "spec_names": [
+      "Économie du Développement",
+      "Économie et Gestion Rurale",
+      "Master Économie Régionale"
+    ]
+  },
+  {
+    "id_departement": 250,
+    "nom_departement": "Gestion",
+    "spec_ids": [
+      396,
+      397,
+      398,
+      399
+    ],
+    "spec_names": [
+      "Gestion des Entreprises",
+      "Finance et Comptabilité",
+      "Master Management Stratégique",
+      "Master Comptabilité et Audit"
+    ]
+  },
+  {
+    "id_departement": 251,
+    "nom_departement": "Productions Végétales et Grandes Cultures",
+    "spec_ids": [
+      400,
+      401
+    ],
+    "spec_names": [
+      "Productions Végétales et Arboriculture",
+      "Agronomie et Développement Durable"
+    ]
+  },
+  {
+    "id_departement": 252,
+    "nom_departement": "Productions Animales et Élevage",
+    "spec_ids": [
+      402
+    ],
+    "spec_names": [
+      "Zootechnie et Productions Animales"
+    ]
+  },
+  {
+    "id_departement": 253,
+    "nom_departement": "Génie Rural et Ressources Naturelles",
+    "spec_ids": [
+      403
+    ],
+    "spec_names": [
+      "Génie Rural et Hydraulique"
+    ]
+  },
+  {
+    "id_departement": 254,
+    "nom_departement": "Hydraulique et Génie Rural",
+    "spec_ids": [
+      404,
+      407
+    ],
+    "spec_names": [
+      "Hydraulique et Conservation des Eaux",
+      "Master Sciences de l'Eau"
+    ]
+  },
+  {
+    "id_departement": 255,
+    "nom_departement": "Génie de l'Environnement",
+    "spec_ids": [
+      405
+    ],
+    "spec_names": [
+      "Génie de l'Environnement et Eau"
+    ]
+  },
+  {
+    "id_departement": 256,
+    "nom_departement": "Génie Agro-Industriel",
+    "spec_ids": [
+      406,
+      408
+    ],
+    "spec_names": [
+      "Industries Agroalimentaires",
+      "Master Génie Agro-Industriel"
+    ]
+  },
+  {
+    "id_departement": 257,
+    "nom_departement": "Histoire et Civilisations",
+    "spec_ids": [
+      409,
+      410,
+      411
+    ],
+    "spec_names": [
+      "Histoire Ancienne et Médiévale",
+      "Histoire Contemporaine",
+      "Master Patrimoine et Archéologie"
+    ]
+  },
+  {
+    "id_departement": 258,
+    "nom_departement": "Géographie et Aménagement du Territoire",
+    "spec_ids": [
+      412,
+      413,
+      414
+    ],
+    "spec_names": [
+      "Géographie Humaine et Physique",
+      "Géographie et SIG",
+      "Master Géographie et Développement"
+    ]
+  },
+  {
+    "id_departement": 259,
+    "nom_departement": "Sociologie et Anthropologie",
+    "spec_ids": [
+      415,
+      416
+    ],
+    "spec_names": [
+      "Sociologie Générale",
+      "Anthropologie Sociale"
+    ]
+  },
+  {
+    "id_departement": 260,
+    "nom_departement": "Études Arabes Appliquées Kef",
+    "spec_ids": [
+      417
+    ],
+    "spec_names": [
+      "Traduction et Communication Arabe"
+    ]
+  },
+  {
+    "id_departement": 261,
+    "nom_departement": "Études Françaises et Anglaises Kef",
+    "spec_ids": [
+      418,
+      419
+    ],
+    "spec_names": [
+      "Français des Affaires Kef",
+      "Anglais des Affaires Kef"
+    ]
+  },
+  {
+    "id_departement": 262,
+    "nom_departement": "Langues Appliquées Béja",
+    "spec_ids": [
+      420,
+      423
+    ],
+    "spec_names": [
+      "Langues Appliquées Béja",
+      "Master Traduction Spécialisée Béja"
+    ]
+  },
+  {
+    "id_departement": 263,
+    "nom_departement": "Informatique Appliquée Béja",
+    "spec_ids": [
+      421,
+      422
+    ],
+    "spec_names": [
+      "Développement Logiciel Béja",
+      "Réseaux et Sécurité Béja"
+    ]
+  },
+  {
+    "id_departement": 264,
+    "nom_departement": "Arts Plastiques et Métiers d'Art Siliana",
+    "spec_ids": [
+      424,
+      425,
+      427
+    ],
+    "spec_names": [
+      "Arts Plastiques Siliana",
+      "Artisanat Traditionnel Siliana",
+      "Master Arts et Patrimoine Siliana"
+    ]
+  },
+  {
+    "id_departement": 265,
+    "nom_departement": "Design et Artisanat Numérique",
+    "spec_ids": [
+      426
+    ],
+    "spec_names": [
+      "Design Graphique Siliana"
+    ]
+  },
+  {
+    "id_departement": 266,
+    "nom_departement": "Musique Arabe et Traditionnelle Kef",
+    "spec_ids": [
+      428,
+      430
+    ],
+    "spec_names": [
+      "Musique Arabe et Maqâm Kef",
+      "Master Musique et Patrimoine"
+    ]
+  },
+  {
+    "id_departement": 267,
+    "nom_departement": "Théâtre et Art Dramatique Kef",
+    "spec_ids": [
+      429
+    ],
+    "spec_names": [
+      "Art Dramatique et Mise en Scène Kef"
+    ]
+  },
+  {
+    "id_departement": 268,
+    "nom_departement": "Sciences du Sport et Éducation Physique",
+    "spec_ids": [
+      431,
+      433
+    ],
+    "spec_names": [
+      "Éducation Physique et Sport",
+      "Master Sport et Santé"
+    ]
+  },
+  {
+    "id_departement": 269,
+    "nom_departement": "Management du Sport et Kinésithérapie",
+    "spec_ids": [
+      432
+    ],
+    "spec_names": [
+      "Management du Sport"
+    ]
+  },
+  {
+    "id_departement": 270,
+    "nom_departement": "Sylviculture et Forêts",
+    "spec_ids": [
+      434,
+      436
+    ],
+    "spec_names": [
+      "Sylviculture et Gestion Forestière",
+      "Master Forêts et Développement Rural"
+    ]
+  },
+  {
+    "id_departement": 271,
+    "nom_departement": "Pastoralisme et Agropastoralisme",
+    "spec_ids": [
+      435
+    ],
+    "spec_names": [
+      "Agroforesterie et Pastoralisme"
+    ]
+  },
+  {
+    "id_departement": 272,
+    "nom_departement": "Informatique et Systèmes d'Information Kef",
+    "spec_ids": [
+      437,
+      438,
+      440
+    ],
+    "spec_names": [
+      "Développement Logiciel Kef",
+      "Réseaux et Cybersécurité Kef",
+      "Master Informatique Avancée Kef"
+    ]
+  },
+  {
+    "id_departement": 273,
+    "nom_departement": "Technologies Informatiques Kef",
+    "spec_ids": [
+      439
+    ],
+    "spec_names": [
+      "Technologies Web et Mobiles Kef"
+    ]
+  },
+  {
+    "id_departement": 274,
+    "nom_departement": "Biotechnologie Végétale et Microbienne",
+    "spec_ids": [
+      441,
+      442,
+      444
+    ],
+    "spec_names": [
+      "Biotechnologie Végétale",
+      "Microbiologie et Biotechnologie",
+      "Master Biotechnologies Avancées Béja"
+    ]
+  },
+  {
+    "id_departement": 275,
+    "nom_departement": "Biotechnologie Animale et Agroalimentaire",
+    "spec_ids": [
+      443
+    ],
+    "spec_names": [
+      "Biotechnologie et Sécurité Alimentaire"
+    ]
+  },
+  {
+    "id_departement": 276,
+    "nom_departement": "Sciences Infirmières Kef",
+    "spec_ids": [
+      445
+    ],
+    "spec_names": [
+      "Soins Infirmiers Généraux Kef"
+    ]
+  },
+  {
+    "id_departement": 277,
+    "nom_departement": "Technologies Appliquées",
+    "spec_ids": [
+      446,
+      447,
+      449
+    ],
+    "spec_names": [
+      "Génie Électrique et Automatismes",
+      "Informatique Industrielle",
+      "Master Technologies et Management"
+    ]
+  },
+  {
+    "id_departement": 278,
+    "nom_departement": "Économie et Gestion Appliquées",
+    "spec_ids": [
+      448
+    ],
+    "spec_names": [
+      "Gestion des Entreprises INTEK"
+    ]
+  },
+  {
+    "id_departement": 279,
+    "nom_departement": "Langue et Littérature Arabes",
+    "spec_ids": [
+      450,
+      451,
+      452
+    ],
+    "spec_names": [
+      "Langue et Littérature Arabes Classiques",
+      "Langue et Littérature Arabes Modernes",
+      "Master Linguistique Arabe"
+    ]
+  },
+  {
+    "id_departement": 280,
+    "nom_departement": "Langues et Littératures Étrangères",
+    "spec_ids": [
+      453,
+      454,
+      455
+    ],
+    "spec_names": [
+      "Français Professionnel et Traduction",
+      "Anglais Professionnel et Traduction",
+      "Master Traduction Multilingue"
+    ]
+  },
+  {
+    "id_departement": 281,
+    "nom_departement": "Histoire et Patrimoine",
+    "spec_ids": [
+      456,
+      457,
+      458
+    ],
+    "spec_names": [
+      "Histoire Ancienne et Patrimoine de Kairouan",
+      "Histoire Contemporaine",
+      "Master Patrimoine et Tourisme Culturel"
+    ]
+  },
+  {
+    "id_departement": 282,
+    "nom_departement": "Géographie et Développement",
+    "spec_ids": [
+      459,
+      460,
+      461
+    ],
+    "spec_names": [
+      "Géographie Humaine et Aménagement",
+      "Géographie Physique et Environnement",
+      "Master SIG et Développement Territorial"
+    ]
+  },
+  {
+    "id_departement": 283,
+    "nom_departement": "Philosophie et Sciences Sociales",
+    "spec_ids": [
+      462,
+      463,
+      464
+    ],
+    "spec_names": [
+      "Philosophie et Éthique",
+      "Sociologie et Développement",
+      "Anthropologie et Patrimoine"
+    ]
+  },
+  {
+    "id_departement": 284,
+    "nom_departement": "Mathématiques et Informatique",
+    "spec_ids": [
+      465,
+      466,
+      467,
+      468,
+      469
+    ],
+    "spec_names": [
+      "Mathématiques Pures Sidi Bouzid",
+      "Mathématiques Appliquées Sidi Bouzid",
+      "Développement Logiciel Sidi Bouzid",
+      "Réseaux et Sécurité Sidi Bouzid",
+      "Master Mathématiques et Informatique"
+    ]
+  },
+  {
+    "id_departement": 285,
+    "nom_departement": "Physique et Chimie",
+    "spec_ids": [
+      470,
+      471
+    ],
+    "spec_names": [
+      "Physique Fondamentale Sidi Bouzid",
+      "Chimie Organique et Analytique"
+    ]
+  },
+  {
+    "id_departement": 286,
+    "nom_departement": "Sciences de la Vie et de la Terre",
+    "spec_ids": [
+      472,
+      473,
+      474
+    ],
+    "spec_names": [
+      "Biologie Cellulaire et Moléculaire SB",
+      "Géologie et Ressources Minières SB",
+      "Master Biologie et Environnement SB"
+    ]
+  },
+  {
+    "id_departement": 287,
+    "nom_departement": "Génie Industriel et Mécanique",
+    "spec_ids": [
+      475,
+      476
+    ],
+    "spec_names": [
+      "Génie Mécanique et Maintenance",
+      "Génie Industriel et Production"
+    ]
+  },
+  {
+    "id_departement": 288,
+    "nom_departement": "Informatique et Systèmes d'Information",
+    "spec_ids": [
+      477,
+      478,
+      479,
+      480
+    ],
+    "spec_names": [
+      "Développement Logiciel Kairouan",
+      "Réseaux et Cybersécurité Kairouan",
+      "Informatique Fondamentale Kairouan",
+      "Master Informatique Avancée Kairouan"
+    ]
+  },
+  {
+    "id_departement": 289,
+    "nom_departement": "Gestion et Finance",
+    "spec_ids": [
+      481,
+      482,
+      483,
+      484
+    ],
+    "spec_names": [
+      "Gestion des Entreprises Kairouan",
+      "Finance et Comptabilité Kairouan",
+      "Master Management Stratégique Kairouan",
+      "Master Finance et Audit Kairouan"
+    ]
+  },
+  {
+    "id_departement": 290,
+    "nom_departement": "Arts Plastiques et Patrimoine de Kairouan",
+    "spec_ids": [
+      485,
+      486,
+      488
+    ],
+    "spec_names": [
+      "Calligraphie et Arts Islamiques",
+      "Mosaïque et Arts Décoratifs",
+      "Master Arts Islamiques et Patrimoine"
+    ]
+  },
+  {
+    "id_departement": 291,
+    "nom_departement": "Design et Arts Appliqués Kairouan",
+    "spec_ids": [
+      487
+    ],
+    "spec_names": [
+      "Design Textile et Artisanat"
+    ]
+  },
+  {
+    "id_departement": 292,
+    "nom_departement": "Arts Plastiques Kasserine",
+    "spec_ids": [
+      489
+    ],
+    "spec_names": [
+      "Arts Plastiques et Expression Kasserine"
+    ]
+  },
+  {
+    "id_departement": 293,
+    "nom_departement": "Artisanat et Métiers d'Art Kasserine",
+    "spec_ids": [
+      490
+    ],
+    "spec_names": [
+      "Tissage et Artisanat Traditionnel"
+    ]
+  },
+  {
+    "id_departement": 294,
+    "nom_departement": "Arts Plastiques Sidi Bouzid",
+    "spec_ids": [
+      491
+    ],
+    "spec_names": [
+      "Arts Visuels Sidi Bouzid"
+    ]
+  },
+  {
+    "id_departement": 295,
+    "nom_departement": "Artisanat et Design Sidi Bouzid",
+    "spec_ids": [
+      492
+    ],
+    "spec_names": [
+      "Design Numérique Sidi Bouzid"
+    ]
+  },
+  {
+    "id_departement": 296,
+    "nom_departement": "Droit Privé et Sciences Commerciales",
+    "spec_ids": [
+      493,
+      494,
+      495
+    ],
+    "spec_names": [
+      "Droit Civil et des Affaires",
+      "Sciences Commerciales et Marketing",
+      "Master Droit des Affaires Kairouan"
+    ]
+  },
+  {
+    "id_departement": 297,
+    "nom_departement": "Droit Public et Sciences Politiques",
+    "spec_ids": [
+      496,
+      497,
+      498
+    ],
+    "spec_names": [
+      "Droit Constitutionnel et Sciences Politiques",
+      "Droit Administratif et Finances Publiques",
+      "Master Droit Public Kairouan"
+    ]
+  },
+  {
+    "id_departement": 298,
+    "nom_departement": "Mathématiques Appliquées",
+    "spec_ids": [
+      499,
+      500,
+      501
+    ],
+    "spec_names": [
+      "Analyse et Algèbre",
+      "Statistiques et Probabilités",
+      "Master Mathématiques Appliquées Kairouan"
+    ]
+  },
+  {
+    "id_departement": 299,
+    "nom_departement": "Informatique Avancée",
+    "spec_ids": [
+      502,
+      503,
+      504
+    ],
+    "spec_names": [
+      "Développement Logiciel ISMAIK",
+      "Intelligence Artificielle ISMAIK",
+      "Master IA et Big Data ISMAIK"
+    ]
+  },
+  {
+    "id_departement": 300,
+    "nom_departement": "Technologies Informatiques Kairouan",
+    "spec_ids": [
+      505,
+      506,
+      509
+    ],
+    "spec_names": [
+      "Développement Web et Mobile Kairouan",
+      "Réseaux et Sécurité Informatique Kairouan",
+      "Master Technologies Avancées Kairouan"
+    ]
+  },
+  {
+    "id_departement": 301,
+    "nom_departement": "Technologies Industrielles Kairouan",
+    "spec_ids": [
+      507,
+      508
+    ],
+    "spec_names": [
+      "Électrotechnique et Automatismes",
+      "Génie Industriel Kairouan"
+    ]
+  },
+  {
+    "id_departement": 302,
+    "nom_departement": "Technologies Informatiques Kasserine",
+    "spec_ids": [
+      510,
+      511
+    ],
+    "spec_names": [
+      "Développement Logiciel Kasserine",
+      "Réseaux et Cybersécurité Kasserine"
+    ]
+  },
+  {
+    "id_departement": 303,
+    "nom_departement": "Technologies Industrielles Kasserine",
+    "spec_ids": [
+      512,
+      513
+    ],
+    "spec_names": [
+      "Génie Mécanique Kasserine",
+      "Automatismes et Systèmes Kasserine"
+    ]
+  },
+  {
+    "id_departement": 304,
+    "nom_departement": "Études Arabes et Humanités Appliquées",
+    "spec_ids": [
+      514,
+      516
+    ],
+    "spec_names": [
+      "Arabe Professionnel et Médias",
+      "Master Humanités et Développement"
+    ]
+  },
+  {
+    "id_departement": 305,
+    "nom_departement": "Sciences Sociales Appliquées",
+    "spec_ids": [
+      515
+    ],
+    "spec_names": [
+      "Communication et Développement Social"
+    ]
+  },
+  {
+    "id_departement": 306,
+    "nom_departement": "Technologies du Recyclage et de l'Environnement",
+    "spec_ids": [
+      517,
+      518,
+      520
+    ],
+    "spec_names": [
+      "Recyclage et Valorisation des Déchets",
+      "Technologies Vertes et Environnement",
+      "Master Environnement et Recyclage"
+    ]
+  },
+  {
+    "id_departement": 307,
+    "nom_departement": "Génie des Procédés et Matériaux",
+    "spec_ids": [
+      519
+    ],
+    "spec_names": [
+      "Génie des Procédés Industriels"
+    ]
+  },
+  {
+    "id_departement": 308,
+    "nom_departement": "Mathématiques",
+    "spec_ids": [
+      521,
+      522,
+      523
+    ],
+    "spec_names": [
+      "Mathématiques Pures",
+      "Mathématiques Appliquées",
+      "Master Mathématiques Fondamentales"
+    ]
+  },
+  {
+    "id_departement": 309,
+    "nom_departement": "Physique",
+    "spec_ids": [
+      524,
+      525,
+      526
+    ],
+    "spec_names": [
+      "Physique Fondamentale",
+      "Physique de l'Énergie",
+      "Master Physique et Énergie"
+    ]
+  },
+  {
+    "id_departement": 310,
+    "nom_departement": "Chimie",
+    "spec_ids": [
+      527,
+      528,
+      529
+    ],
+    "spec_names": [
+      "Chimie Organique et Médicinale",
+      "Chimie des Matériaux",
+      "Master Chimie des Matériaux"
+    ]
+  },
+  {
+    "id_departement": 311,
+    "nom_departement": "Biologie",
+    "spec_ids": [
+      530,
+      531,
+      532
+    ],
+    "spec_names": [
+      "Biologie Cellulaire et Moléculaire",
+      "Microbiologie et Immunologie",
+      "Master Biotechnologies FSM"
+    ]
+  },
+  {
+    "id_departement": 312,
+    "nom_departement": "Informatique",
+    "spec_ids": [
+      533,
+      534,
+      535
+    ],
+    "spec_names": [
+      "Développement Logiciel FSM",
+      "Réseaux et Cybersécurité FSM",
+      "Master Intelligence Artificielle FSM"
+    ]
+  },
+  {
+    "id_departement": 313,
+    "nom_departement": "Médecine Fondamentale",
+    "spec_ids": [
+      536,
+      537
+    ],
+    "spec_names": [
+      "Médecine Générale Monastir",
+      "Résidanat - Médecine Spécialisée"
+    ]
+  },
+  {
+    "id_departement": 316,
+    "nom_departement": "Sciences Précliniques Dentaires",
+    "spec_ids": [
+      538
+    ],
+    "spec_names": [
+      "Chirurgie Dentaire Monastir"
+    ]
+  },
+  {
+    "id_departement": 318,
+    "nom_departement": "Orthodontie et Pédodontie",
+    "spec_ids": [
+      539
+    ],
+    "spec_names": [
+      "Orthodontie et Pédodontie"
+    ]
+  },
+  {
+    "id_departement": 319,
+    "nom_departement": "Sciences Pharmaceutiques Fondamentales",
+    "spec_ids": [
+      540,
+      541,
+      542
+    ],
+    "spec_names": [
+      "Pharmacie Hospitalière et Clinique",
+      "Pharmacie d'Officine",
+      "Master Sciences Pharmaceutiques"
+    ]
+  },
+  {
+    "id_departement": 322,
+    "nom_departement": "Sciences Économiques",
+    "spec_ids": [
+      543,
+      544,
+      545
+    ],
+    "spec_names": [
+      "Économie du Développement Mahdia",
+      "Économie et Finance Internationale",
+      "Master Économétrie et Modélisation"
+    ]
+  },
+  {
+    "id_departement": 323,
+    "nom_departement": "Gestion",
+    "spec_ids": [
+      546,
+      547,
+      548,
+      549
+    ],
+    "spec_names": [
+      "Comptabilité et Finance Mahdia",
+      "Management des Organisations Mahdia",
+      "Master Finance et Comptabilité Mahdia",
+      "Master Management Stratégique Mahdia"
+    ]
+  },
+  {
+    "id_departement": 324,
+    "nom_departement": "Quantitatif et Informatique de Gestion",
+    "spec_ids": [
+      550
+    ],
+    "spec_names": [
+      "Statistiques de Gestion Mahdia"
+    ]
+  },
+  {
+    "id_departement": 325,
+    "nom_departement": "Génie Mécanique",
+    "spec_ids": [
+      551,
+      552,
+      559
+    ],
+    "spec_names": [
+      "Génie Mécanique ENIM",
+      "Mécatronique ENIM",
+      "Master Matériaux Avancés ENIM"
+    ]
+  },
+  {
+    "id_departement": 326,
+    "nom_departement": "Génie Électrique",
+    "spec_ids": [
+      553,
+      554,
+      560
+    ],
+    "spec_names": [
+      "Électrotechnique et Automatique ENIM",
+      "Électronique et Télécommunications ENIM",
+      "Master Automatique et Systèmes ENIM"
+    ]
+  },
+  {
+    "id_departement": 327,
+    "nom_departement": "Génie Civil et Environnement",
+    "spec_ids": [
+      555
+    ],
+    "spec_names": [
+      "Génie Civil ENIM"
+    ]
+  },
+  {
+    "id_departement": 328,
+    "nom_departement": "Génie Industriel et Génie des Matériaux",
+    "spec_ids": [
+      556,
+      557
+    ],
+    "spec_names": [
+      "Génie des Matériaux ENIM",
+      "Génie de Production ENIM"
+    ]
+  },
+  {
+    "id_departement": 329,
+    "nom_departement": "Génie Informatique",
+    "spec_ids": [
+      558,
+      561
+    ],
+    "spec_names": [
+      "Génie Informatique ENIM",
+      "Master IA et Cybersécurité ENIM"
+    ]
+  },
+  {
+    "id_departement": 331,
+    "nom_departement": "Techniques Paramédicales",
+    "spec_ids": [
+      562,
+      563,
+      564
+    ],
+    "spec_names": [
+      "Radiologie Médicale Monastir",
+      "Analyses de Biologie Médicale Monastir",
+      "Kinésithérapie et Réhabilitation Monastir"
+    ]
+  },
+  {
+    "id_departement": 332,
+    "nom_departement": "Informatique",
+    "spec_ids": [
+      565,
+      566,
+      567,
+      568
+    ],
+    "spec_names": [
+      "Développement Logiciel ISIMM",
+      "Réseaux et Cybersécurité ISIMM",
+      "Informatique Fondamentale ISIMM",
+      "Master IA et Data Science ISIMM"
+    ]
+  },
+  {
+    "id_departement": 333,
+    "nom_departement": "Mathématiques Appliquées",
+    "spec_ids": [
+      569,
+      570
+    ],
+    "spec_names": [
+      "Statistiques et Actuariat ISIMM",
+      "Master Data Science ISIMM"
+    ]
+  },
+  {
+    "id_departement": 334,
+    "nom_departement": "Langues des Affaires",
+    "spec_ids": [
+      571,
+      572,
+      575
+    ],
+    "spec_names": [
+      "Anglais des Affaires et Tourisme",
+      "Français des Affaires et Tourisme",
+      "Master Communication des Affaires"
+    ]
+  },
+  {
+    "id_departement": 335,
+    "nom_departement": "Tourisme et Hôtellerie",
+    "spec_ids": [
+      573,
+      574
+    ],
+    "spec_names": [
+      "Gestion Hôtelière et Tourisme Moknine",
+      "Tourisme Balnéaire et Culturel"
+    ]
+  },
+  {
+    "id_departement": 336,
+    "nom_departement": "Informatique et Multimédia",
+    "spec_ids": [
+      576,
+      577,
+      579
+    ],
+    "spec_names": [
+      "Développement Web et Mobile Mahdia",
+      "Réseaux et Sécurité Mahdia",
+      "Master Informatique Avancée Mahdia"
+    ]
+  },
+  {
+    "id_departement": 337,
+    "nom_departement": "Systèmes d'Information de Gestion",
+    "spec_ids": [
+      578
+    ],
+    "spec_names": [
+      "SI et ERP Mahdia"
+    ]
+  },
+  {
+    "id_departement": 338,
+    "nom_departement": "Technologies Industrielles Mahdia",
+    "spec_ids": [
+      580,
+      581
+    ],
+    "spec_names": [
+      "Génie Mécanique Mahdia",
+      "Électrotechnique et Automatismes Mahdia"
+    ]
+  },
+  {
+    "id_departement": 339,
+    "nom_departement": "Technologies Informatiques Mahdia",
+    "spec_ids": [
+      582
+    ],
+    "spec_names": [
+      "Développement Logiciel ISSATMH"
+    ]
+  },
+  {
+    "id_departement": 340,
+    "nom_departement": "Arts Plastiques Mahdia",
+    "spec_ids": [
+      583
+    ],
+    "spec_names": [
+      "Arts Plastiques et Décoration Mahdia"
+    ]
+  },
+  {
+    "id_departement": 341,
+    "nom_departement": "Design et Mode Mahdia",
+    "spec_ids": [
+      584
+    ],
+    "spec_names": [
+      "Design Mode et Textile Mahdia"
+    ]
+  },
+  {
+    "id_departement": 342,
+    "nom_departement": "Études Arabes et Humaines Mahdia",
+    "spec_ids": [
+      585
+    ],
+    "spec_names": [
+      "Arabe Professionnel et Médias Mahdia"
+    ]
+  },
+  {
+    "id_departement": 343,
+    "nom_departement": "Langues Étrangères Appliquées Mahdia",
+    "spec_ids": [
+      586
+    ],
+    "spec_names": [
+      "Langues Appliquées Mahdia"
+    ]
+  },
+  {
+    "id_departement": 344,
+    "nom_departement": "Biotechnologie Moléculaire et Cellulaire",
+    "spec_ids": [
+      587,
+      588,
+      589
+    ],
+    "spec_names": [
+      "Biotechnologie Moléculaire et Cellulaire",
+      "Biotechnologie Microbienne",
+      "Master Biotechnologies Avancées Monastir"
+    ]
+  },
+  {
+    "id_departement": 345,
+    "nom_departement": "Biotechnologie Microbienne et Environnement",
+    "spec_ids": [
+      590
+    ],
+    "spec_names": [
+      "Master Bioremédiation et Environnement"
+    ]
+  },
+  {
+    "id_departement": 346,
+    "nom_departement": "Maths-Physique Monastir",
+    "spec_ids": [
+      591
+    ],
+    "spec_names": [
+      "Maths-Physique Monastir"
+    ]
+  },
+  {
+    "id_departement": 347,
+    "nom_departement": "Physique-Chimie Monastir",
+    "spec_ids": [
+      592
+    ],
+    "spec_names": [
+      "Physique-Chimie Monastir"
+    ]
+  },
+  {
+    "id_departement": 348,
+    "nom_departement": "Création et Design de Mode",
+    "spec_ids": [
+      593,
+      594,
+      596
+    ],
+    "spec_names": [
+      "Stylisme et Modélisme",
+      "Mode et Management de Collections",
+      "Master Mode et Création Textile"
+    ]
+  },
+  {
+    "id_departement": 349,
+    "nom_departement": "Technologie Textile et Confection",
+    "spec_ids": [
+      595
+    ],
+    "spec_names": [
+      "Technologie Textile et Confection"
+    ]
+  },
+  {
+    "id_departement": 350,
+    "nom_departement": "Droit Privé",
+    "spec_ids": [
+      597,
+      598,
+      599
+    ],
+    "spec_names": [
+      "Droit Civil et des Obligations",
+      "Droit Commercial et des Sociétés",
+      "Master Droit des Affaires"
+    ]
+  },
+  {
+    "id_departement": 351,
+    "nom_departement": "Droit Public",
+    "spec_ids": [
+      600,
+      601,
+      602
+    ],
+    "spec_names": [
+      "Droit Constitutionnel et Institutions",
+      "Droit Administratif et FP",
+      "Master Droit Public Sousse"
+    ]
+  },
+  {
+    "id_departement": 352,
+    "nom_departement": "Sciences Économiques",
+    "spec_ids": [
+      603,
+      604,
+      605
+    ],
+    "spec_names": [
+      "Économie du Développement Sousse",
+      "Économie et Gestion Appliquée",
+      "Master Économétrie et Modélisation"
+    ]
+  },
+  {
+    "id_departement": 353,
+    "nom_departement": "Sciences Politiques",
+    "spec_ids": [
+      606,
+      607,
+      608
+    ],
+    "spec_names": [
+      "Relations Internationales Sousse",
+      "Politique Comparée Sousse",
+      "Master Gouvernance et PP Sousse"
+    ]
+  },
+  {
+    "id_departement": 354,
+    "nom_departement": "Médecine Fondamentale",
+    "spec_ids": [
+      609,
+      610
+    ],
+    "spec_names": [
+      "Médecine Générale Sousse",
+      "Résidanat Médecine Spécialisée Sousse"
+    ]
+  },
+  {
+    "id_departement": 356,
+    "nom_departement": "Santé Publique et Médecine Communautaire",
+    "spec_ids": [
+      611
+    ],
+    "spec_names": [
+      "Master Sciences Biomédicales Sousse"
+    ]
+  },
+  {
+    "id_departement": 357,
+    "nom_departement": "Langue et Littérature Arabes",
+    "spec_ids": [
+      612,
+      613,
+      614
+    ],
+    "spec_names": [
+      "Langue et Littérature Arabes Classiques",
+      "Langue et Littérature Arabes Modernes",
+      "Master Linguistique Arabe Sousse"
+    ]
+  },
+  {
+    "id_departement": 358,
+    "nom_departement": "Langues et Littératures Étrangères",
+    "spec_ids": [
+      615,
+      616,
+      617
+    ],
+    "spec_names": [
+      "Français Professionnel et Traduction",
+      "Anglais Professionnel et Traduction",
+      "Master Traduction Spécialisée Sousse"
+    ]
+  },
+  {
+    "id_departement": 359,
+    "nom_departement": "Histoire et Civilisations",
+    "spec_ids": [
+      618,
+      619,
+      620
+    ],
+    "spec_names": [
+      "Histoire Ancienne et Médiévale Sousse",
+      "Histoire Contemporaine Sousse",
+      "Master Patrimoine et Archéologie Sousse"
+    ]
+  },
+  {
+    "id_departement": 360,
+    "nom_departement": "Géographie et Aménagement",
+    "spec_ids": [
+      621,
+      622,
+      623
+    ],
+    "spec_names": [
+      "Géographie Humaine et Physique Sousse",
+      "Géographie Urbaine et SIG Sousse",
+      "Master Géographie et Aménagement"
+    ]
+  },
+  {
+    "id_departement": 361,
+    "nom_departement": "Philosophie et Sciences Sociales",
+    "spec_ids": [
+      624,
+      625,
+      626
+    ],
+    "spec_names": [
+      "Philosophie et Éthique Sousse",
+      "Sociologie et Anthropologie Sousse",
+      "Master Sciences Sociales Sousse"
+    ]
+  },
+  {
+    "id_departement": 362,
+    "nom_departement": "Génie Mécanique",
+    "spec_ids": [
+      627,
+      628,
+      635
+    ],
+    "spec_names": [
+      "Génie Mécanique et Production ENISS",
+      "Mécatronique ENISS",
+      "Master Matériaux et Structures ENISS"
+    ]
+  },
+  {
+    "id_departement": 363,
+    "nom_departement": "Génie Électrique",
+    "spec_ids": [
+      629,
+      630,
+      636
+    ],
+    "spec_names": [
+      "Électrotechnique et Automatique ENISS",
+      "Électronique et Télécoms ENISS",
+      "Master Automatique et Systèmes ENISS"
+    ]
+  },
+  {
+    "id_departement": 364,
+    "nom_departement": "Génie Civil",
+    "spec_ids": [
+      631,
+      637
+    ],
+    "spec_names": [
+      "Génie Civil ENISS",
+      "Master Géotechnique et Hydraulique ENISS"
+    ]
+  },
+  {
+    "id_departement": 365,
+    "nom_departement": "Génie Industriel",
+    "spec_ids": [
+      632,
+      633
+    ],
+    "spec_names": [
+      "Génie Industriel et Lean ENISS",
+      "Logistique Industrielle ENISS"
+    ]
+  },
+  {
+    "id_departement": 366,
+    "nom_departement": "Génie Informatique",
+    "spec_ids": [
+      634,
+      638
+    ],
+    "spec_names": [
+      "Génie Informatique et IA ENISS",
+      "Master IA et Cybersécurité ENISS"
+    ]
+  },
+  {
+    "id_departement": 368,
+    "nom_departement": "Techniques Paramédicales",
+    "spec_ids": [
+      639,
+      640,
+      641
+    ],
+    "spec_names": [
+      "Radiologie Médicale Sousse",
+      "Analyses Biomédicales Sousse",
+      "Kinésithérapie Sousse"
+    ]
+  },
+  {
+    "id_departement": 369,
+    "nom_departement": "Technologies Informatiques Hammam Sousse",
+    "spec_ids": [
+      642,
+      643,
+      644
+    ],
+    "spec_names": [
+      "Développement Logiciel Hammam Sousse",
+      "Réseaux et Cybersécurité HS",
+      "Master Informatique Avancée HS"
+    ]
+  },
+  {
+    "id_departement": 370,
+    "nom_departement": "Technologies Industrielles Hammam Sousse",
+    "spec_ids": [
+      645
+    ],
+    "spec_names": [
+      "Génie Industriel et Mécatronique HS"
+    ]
+  },
+  {
+    "id_departement": 371,
+    "nom_departement": "Finance",
+    "spec_ids": [
+      646,
+      647,
+      650
+    ],
+    "spec_names": [
+      "Finance d'Entreprise Sousse",
+      "Marchés Financiers et Actuariat",
+      "Master Finance Avancée Sousse"
+    ]
+  },
+  {
+    "id_departement": 372,
+    "nom_departement": "Fiscalité et Comptabilité",
+    "spec_ids": [
+      648,
+      649,
+      651
+    ],
+    "spec_names": [
+      "Fiscalité et Droit Fiscal",
+      "Comptabilité et Contrôle de Gestion",
+      "Master Fiscalité et Audit"
+    ]
+  },
+  {
+    "id_departement": 373,
+    "nom_departement": "Informatique et Réseaux",
+    "spec_ids": [
+      652,
+      653,
+      654,
+      655
+    ],
+    "spec_names": [
+      "Développement Logiciel ISITCHS",
+      "Réseaux et Cybersécurité ISITCHS",
+      "Informatique Fondamentale ISITCHS",
+      "Master IA et Cybersécurité ISITCHS"
+    ]
+  },
+  {
+    "id_departement": 374,
+    "nom_departement": "Technologies de Communication",
+    "spec_ids": [
+      656,
+      657,
+      658
+    ],
+    "spec_names": [
+      "IoT et Systèmes Connectés",
+      "Multimédia et UX Design",
+      "Master Télécommunications Avancées"
+    ]
+  },
+  {
+    "id_departement": 375,
+    "nom_departement": "Transport et Logistique",
+    "spec_ids": [
+      659,
+      660,
+      661
+    ],
+    "spec_names": [
+      "Transport Routier et Maritime",
+      "Logistique et Supply Chain",
+      "Master Supply Chain et Logistique"
+    ]
+  },
+  {
+    "id_departement": 376,
+    "nom_departement": "Gestion des Opérations",
+    "spec_ids": [
+      662
+    ],
+    "spec_names": [
+      "Qualité et Gestion des Opérations"
+    ]
+  },
+  {
+    "id_departement": 377,
+    "nom_departement": "Arts Plastiques Sousse",
+    "spec_ids": [
+      663,
+      664
+    ],
+    "spec_names": [
+      "Peinture et Arts Plastiques Sousse",
+      "Sculpture et Arts 3D Sousse"
+    ]
+  },
+  {
+    "id_departement": 378,
+    "nom_departement": "Design Sousse",
+    "spec_ids": [
+      665,
+      666,
+      667
+    ],
+    "spec_names": [
+      "Design Graphique Sousse",
+      "Design d'Intérieur Sousse",
+      "Master Design Prospectif Sousse"
+    ]
+  },
+  {
+    "id_departement": 379,
+    "nom_departement": "Marketing et Commerce International",
+    "spec_ids": [
+      668,
+      669,
+      670
+    ],
+    "spec_names": [
+      "Marketing et Communication ISGS",
+      "Commerce International ISGS",
+      "Master Marketing Digital ISGS"
+    ]
+  },
+  {
+    "id_departement": 380,
+    "nom_departement": "Management et Ressources Humaines",
+    "spec_ids": [
+      671,
+      672
+    ],
+    "spec_names": [
+      "GRH et Développement Organisationnel",
+      "Master GRH Avancée ISGS"
+    ]
+  },
+  {
+    "id_departement": 381,
+    "nom_departement": "Finance et Comptabilité ISG",
+    "spec_ids": [
+      673,
+      674,
+      675
+    ],
+    "spec_names": [
+      "Finance d'Entreprise ISGS",
+      "Comptabilité et Contrôle ISGS",
+      "Master Finance ISGS"
+    ]
+  },
+  {
+    "id_departement": 382,
+    "nom_departement": "Systèmes d'Information",
+    "spec_ids": [
+      676,
+      677
+    ],
+    "spec_names": [
+      "SI et ERP ISGS",
+      "Master Transformation Digitale ISGS"
+    ]
+  },
+  {
+    "id_departement": 383,
+    "nom_departement": "Finance et Banque",
+    "spec_ids": [
+      678,
+      679,
+      680,
+      681
+    ],
+    "spec_names": [
+      "Finance et Banque IHECS",
+      "Marchés de Capitaux IHECS",
+      "Master Finance Avancée IHECS",
+      "Master Finance Quantitative IHECS"
+    ]
+  },
+  {
+    "id_departement": 384,
+    "nom_departement": "Management et Entrepreneuriat",
+    "spec_ids": [
+      682,
+      683
+    ],
+    "spec_names": [
+      "Management et Entrepreneuriat IHECS",
+      "MBA Management International IHECS"
+    ]
+  },
+  {
+    "id_departement": 385,
+    "nom_departement": "Marketing Digital et Commerce",
+    "spec_ids": [
+      684,
+      685
+    ],
+    "spec_names": [
+      "Marketing Digital IHECS",
+      "Master Marketing Digital IHECS"
+    ]
+  },
+  {
+    "id_departement": 386,
+    "nom_departement": "Comptabilité et Audit",
+    "spec_ids": [
+      686,
+      687
+    ],
+    "spec_names": [
+      "Comptabilité et Audit IHECS",
+      "Master Audit et Comptabilité IHECS"
+    ]
+  },
+  {
+    "id_departement": 387,
+    "nom_departement": "Musique Arabe et Traditionnelle Sousse",
+    "spec_ids": [
+      688,
+      689,
+      691
+    ],
+    "spec_names": [
+      "Musique Arabe et Maqâm Sousse",
+      "Musique Andalouse et Patrimoine",
+      "Master Ethnomusicologie Sousse"
+    ]
+  },
+  {
+    "id_departement": 388,
+    "nom_departement": "Musicologie et Composition",
+    "spec_ids": [
+      690
+    ],
+    "spec_names": [
+      "Composition et Arrangement Sousse"
+    ]
+  },
+  {
+    "id_departement": 389,
+    "nom_departement": "Technologies Informatiques Sousse",
+    "spec_ids": [
+      692,
+      693,
+      694
+    ],
+    "spec_names": [
+      "Développement Web et Mobile Sousse",
+      "Réseaux et Cybersécurité Sousse",
+      "Master Informatique Sousse ISSAT"
+    ]
+  },
+  {
+    "id_departement": 390,
+    "nom_departement": "Technologies Industrielles Sousse",
+    "spec_ids": [
+      695
+    ],
+    "spec_names": [
+      "Électrotechnique et Automatismes Sousse"
+    ]
+  },
+  {
+    "id_departement": 391,
+    "nom_departement": "Productions Végétales et Agronomie",
+    "spec_ids": [
+      696,
+      698
+    ],
+    "spec_names": [
+      "Agronomie et Productions Végétales",
+      "Master Agronomie Durable"
+    ]
+  },
+  {
+    "id_departement": 392,
+    "nom_departement": "Ressources Naturelles et Environnement",
+    "spec_ids": [
+      697
+    ],
+    "spec_names": [
+      "Génie Rural et Ressources Naturelles"
+    ]
+  },
+  {
+    "id_departement": 393,
+    "nom_departement": "Biotechnologie Végétale Chott Mériem",
+    "spec_ids": [
+      699
+    ],
+    "spec_names": [
+      "Master Biotechnologie Végétale Sousse"
+    ]
+  },
+  {
+    "id_departement": 394,
+    "nom_departement": "Sciences Infirmières Sousse",
+    "spec_ids": [
+      700
+    ],
+    "spec_names": [
+      "Soins Infirmiers Généraux Sousse"
+    ]
+  },
+  {
+    "id_departement": 395,
+    "nom_departement": "Obstétrique et Soins Maternels Sousse",
+    "spec_ids": [
+      701
+    ],
+    "spec_names": [
+      "Sage-Femme et Soins Obstétricaux"
+    ]
+  },
+  {
+    "id_departement": 396,
+    "nom_departement": "Théologie et Jurisprudence Islamique",
+    "spec_ids": [
+      702,
+      703,
+      704,
+      705,
+      706
+    ],
+    "spec_names": [
+      "Charia et Jurisprudence Islamique",
+      "Théologie Islamique (Aqida)",
+      "Usûl al-Fiqh et Jurisprudence Comparée",
+      "Droit Islamique Contemporain",
+      "Master Fiqh Comparé et Ijtihad"
+    ]
+  },
+  {
+    "id_departement": 397,
+    "nom_departement": "Coran et Sciences Coraniques",
+    "spec_ids": [
+      707,
+      708,
+      709
+    ],
+    "spec_names": [
+      "Exégèse et Sciences du Coran (Tafsir)",
+      "Récitation et Mémorisation du Coran",
+      "Master Sciences Coraniques Avancées"
+    ]
+  },
+  {
+    "id_departement": 398,
+    "nom_departement": "Hadith et Sciences du Hadith",
+    "spec_ids": [
+      710,
+      711,
+      712
+    ],
+    "spec_names": [
+      "Hadith et Critique du Hadith",
+      "Mustalah al-Hadith et Fiqh al-Hadith",
+      "Master Hadith et Sunnah Avancés"
+    ]
+  },
+  {
+    "id_departement": 399,
+    "nom_departement": "Philosophie et Pensée Islamique",
+    "spec_ids": [
+      713,
+      714,
+      715
+    ],
+    "spec_names": [
+      "Philosophie Islamique Classique",
+      "Pensée Islamique Contemporaine",
+      "Master Pensée Islamique et Interreligieux"
+    ]
+  },
+  {
+    "id_departement": 400,
+    "nom_departement": "Langue Arabe et Littérature Classique",
+    "spec_ids": [
+      716,
+      717,
+      718
+    ],
+    "spec_names": [
+      "Grammaire Arabe et Rhétorique",
+      "Poésie et Littérature Arabe Classique",
+      "Master Linguistique et Stylistique Arabe"
+    ]
+  },
+  {
+    "id_departement": 401,
+    "nom_departement": "Histoire et Civilisation Islamiques",
+    "spec_ids": [
+      719,
+      720,
+      721
+    ],
+    "spec_names": [
+      "Histoire Islamique Classique",
+      "Histoire de la Civilisation Islamique",
+      "Master Civilisation et Archéologie"
+    ]
+  },
+  {
+    "id_departement": 402,
+    "nom_departement": "Patrimoine et Arts Islamiques",
+    "spec_ids": [
+      722,
+      723,
+      724
+    ],
+    "spec_names": [
+      "Architecture Islamique",
+      "Calligraphie et Arts Décoratifs Islamiques",
+      "Master Arts Islamiques et Restauration"
+    ]
+  },
+  {
+    "id_departement": 403,
+    "nom_departement": "Multimédia Islamique Appliqué",
+    "spec_ids": [
+      725,
+      726,
+      727
+    ],
+    "spec_names": [
+      "Numérisation du Patrimoine Islamique",
+      "Médias Islamiques et Édition Numérique",
+      "Master Multimédia et Patrimoine Numérique"
+    ]
+  },
+  {
+    "id_departement": 404,
+    "nom_departement": "Études Islamiques Kairouan",
+    "spec_ids": [
+      728,
+      729
+    ],
+    "spec_names": [
+      "Études Islamiques Maghreb et Ifriqiya",
+      "Soufisme et Spiritualité Islamique"
+    ]
+  },
+  {
+    "id_departement": 405,
+    "nom_departement": "Patrimoine Manuscrit et Archives",
+    "spec_ids": [
+      730,
+      731
+    ],
+    "spec_names": [
+      "Paléographie Arabe et Codicologie",
+      "Archives et Patrimoine Manuscrit Maghrébin"
+    ]
+  },
+  {
+    "id_departement": 443,
+    "nom_departement": "Mathématiques",
+    "spec_ids": [
+      830,
+      831,
+      832
+    ],
+    "spec_names": [
+      "Mathématiques Pures Sfax",
+      "Mathématiques Appliquées Sfax",
+      "Master Mathématiques Fondamentales Sfax"
+    ]
+  },
+  {
+    "id_departement": 444,
+    "nom_departement": "Physique",
+    "spec_ids": [
+      833,
+      834,
+      835
+    ],
+    "spec_names": [
+      "Physique Fondamentale Sfax",
+      "Physique des Matériaux et Énergie",
+      "Master Physique des Matériaux Sfax"
+    ]
+  },
+  {
+    "id_departement": 445,
+    "nom_departement": "Chimie",
+    "spec_ids": [
+      836,
+      837,
+      838
+    ],
+    "spec_names": [
+      "Chimie Organique et Médicinale Sfax",
+      "Chimie des Matériaux et Analytique Sfax",
+      "Master Chimie des Matériaux Sfax"
+    ]
+  },
+  {
+    "id_departement": 446,
+    "nom_departement": "Biologie",
+    "spec_ids": [
+      839,
+      840,
+      841
+    ],
+    "spec_names": [
+      "Biologie Cellulaire et Moléculaire Sfax",
+      "Microbiologie et Immunologie Sfax",
+      "Master Biotechnologies FSS"
+    ]
+  },
+  {
+    "id_departement": 447,
+    "nom_departement": "Informatique",
+    "spec_ids": [
+      842,
+      843,
+      844
+    ],
+    "spec_names": [
+      "Développement Logiciel FSS",
+      "Réseaux et Cybersécurité FSS",
+      "Master IA et Big Data FSS"
+    ]
+  },
+  {
+    "id_departement": 448,
+    "nom_departement": "Géologie",
+    "spec_ids": [
+      845,
+      846,
+      847
+    ],
+    "spec_names": [
+      "Géologie Structurale Sfax",
+      "Hydrogéologie et Ressources Sfax",
+      "Master Géologie Appliquée Sfax"
+    ]
+  },
+  {
+    "id_departement": 449,
+    "nom_departement": "Médecine Fondamentale",
+    "spec_ids": [
+      848,
+      849
+    ],
+    "spec_names": [
+      "Médecine Générale Sfax",
+      "Résidanat Médecine Spécialisée Sfax"
+    ]
+  },
+  {
+    "id_departement": 451,
+    "nom_departement": "Santé Publique et Médecine Préventive",
+    "spec_ids": [
+      850
+    ],
+    "spec_names": [
+      "Master Sciences Biomédicales Sfax"
+    ]
+  },
+  {
+    "id_departement": 452,
+    "nom_departement": "Droit Privé",
+    "spec_ids": [
+      851,
+      852,
+      853
+    ],
+    "spec_names": [
+      "Droit Civil et Commercial Sfax",
+      "Droit des Personnes et de la Famille",
+      "Master Droit des Affaires Sfax"
+    ]
+  },
+  {
+    "id_departement": 453,
+    "nom_departement": "Droit Public",
+    "spec_ids": [
+      854,
+      855,
+      856
+    ],
+    "spec_names": [
+      "Droit Constitutionnel Sfax",
+      "Droit Administratif et FP Sfax",
+      "Master Droit Public Sfax"
+    ]
+  },
+  {
+    "id_departement": 454,
+    "nom_departement": "Droit International et Droit des Affaires",
+    "spec_ids": [
+      857
+    ],
+    "spec_names": [
+      "Master Droit International Sfax"
+    ]
+  },
+  {
+    "id_departement": 455,
+    "nom_departement": "Sciences Économiques",
+    "spec_ids": [
+      858,
+      859,
+      860
+    ],
+    "spec_names": [
+      "Économie du Développement Sfax",
+      "Économie et Finance Internationale Sfax",
+      "Master Économétrie et Modélisation Sfax"
+    ]
+  },
+  {
+    "id_departement": 456,
+    "nom_departement": "Gestion",
+    "spec_ids": [
+      861,
+      862,
+      863,
+      864
+    ],
+    "spec_names": [
+      "Comptabilité et Finance Sfax",
+      "Management des Organisations Sfax",
+      "Master Management Stratégique Sfax",
+      "Master Comptabilité et Finance Sfax"
+    ]
+  },
+  {
+    "id_departement": 457,
+    "nom_departement": "Méthodes Quantitatives et Informatique",
+    "spec_ids": [
+      865,
+      866
+    ],
+    "spec_names": [
+      "Statistiques de Gestion Sfax",
+      "Master Méthodes Quantitatives Sfax"
+    ]
+  },
+  {
+    "id_departement": 458,
+    "nom_departement": "Langue et Littérature Arabes",
+    "spec_ids": [
+      867,
+      868,
+      869
+    ],
+    "spec_names": [
+      "Langue et Littérature Arabes Classiques Sfax",
+      "Langue et Littérature Arabes Modernes Sfax",
+      "Master Linguistique Arabe Sfax"
+    ]
+  },
+  {
+    "id_departement": 459,
+    "nom_departement": "Langues et Littératures Étrangères",
+    "spec_ids": [
+      870,
+      871,
+      872
+    ],
+    "spec_names": [
+      "Anglais Professionnel et Traduction Sfax",
+      "Français Professionnel et Traduction Sfax",
+      "Master Traduction Spécialisée Sfax"
+    ]
+  },
+  {
+    "id_departement": 460,
+    "nom_departement": "Histoire et Géographie",
+    "spec_ids": [
+      873,
+      874,
+      875,
+      876
+    ],
+    "spec_names": [
+      "Histoire Ancienne et Médiévale Sfax",
+      "Histoire Contemporaine Sfax",
+      "Géographie Humaine et Physique Sfax",
+      "Master Histoire, Géographie et Patrimoine"
+    ]
+  },
+  {
+    "id_departement": 461,
+    "nom_departement": "Philosophie et Sciences Sociales",
+    "spec_ids": [
+      877,
+      878,
+      879
+    ],
+    "spec_names": [
+      "Philosophie et Éthique Sfax",
+      "Sociologie et Anthropologie Sfax",
+      "Master Sciences Sociales Sfax"
+    ]
+  },
+  {
+    "id_departement": 462,
+    "nom_departement": "Génie Mécanique",
+    "spec_ids": [
+      880,
+      881,
+      888
+    ],
+    "spec_names": [
+      "Génie Mécanique et Matériaux ENISSF",
+      "Mécatronique ENISSF",
+      "Master Matériaux et Structures ENISSF"
+    ]
+  },
+  {
+    "id_departement": 463,
+    "nom_departement": "Génie Électrique",
+    "spec_ids": [
+      882,
+      883,
+      889
+    ],
+    "spec_names": [
+      "Électrotechnique et Automatique ENISSF",
+      "Électronique et Télécoms ENISSF",
+      "Master Automatique et Systèmes ENISSF"
+    ]
+  },
+  {
+    "id_departement": 464,
+    "nom_departement": "Génie Civil",
+    "spec_ids": [
+      884,
+      890
+    ],
+    "spec_names": [
+      "Génie Civil ENISSF",
+      "Master Géotechnique ENISSF"
+    ]
+  },
+  {
+    "id_departement": 465,
+    "nom_departement": "Génie Informatique",
+    "spec_ids": [
+      885,
+      891
+    ],
+    "spec_names": [
+      "Génie Informatique et IA ENISSF",
+      "Master IA et Cybersécurité ENISSF"
+    ]
+  },
+  {
+    "id_departement": 466,
+    "nom_departement": "Génie Industriel",
+    "spec_ids": [
+      886
+    ],
+    "spec_names": [
+      "Génie Industriel et Lean ENISSF"
+    ]
+  },
+  {
+    "id_departement": 467,
+    "nom_departement": "Génie des Procédés et Matériaux",
+    "spec_ids": [
+      887
+    ],
+    "spec_names": [
+      "Génie des Procédés et Énergie ENISSF"
+    ]
+  },
+  {
+    "id_departement": 468,
+    "nom_departement": "Finance et Comptabilité ECSF",
+    "spec_ids": [
+      892,
+      893,
+      894
+    ],
+    "spec_names": [
+      "Finance d'Entreprise ECSF",
+      "Comptabilité et Audit ECSF",
+      "Master Finance Avancée ECSF"
+    ]
+  },
+  {
+    "id_departement": 469,
+    "nom_departement": "Management et Marketing ECSF",
+    "spec_ids": [
+      895,
+      896,
+      897
+    ],
+    "spec_names": [
+      "Management et Marketing ECSF",
+      "Commerce International ECSF",
+      "MBA Management International ECSF"
+    ]
+  },
+  {
+    "id_departement": 471,
+    "nom_departement": "Sciences de la Santé et Paramédical",
+    "spec_ids": [
+      898,
+      899,
+      900
+    ],
+    "spec_names": [
+      "Radiologie Médicale Sfax",
+      "Analyses Biomédicales Sfax",
+      "Kinésithérapie Sfax"
+    ]
+  },
+  {
+    "id_departement": 472,
+    "nom_departement": "Agronomie et Productions Oléicoles",
+    "spec_ids": [
+      901,
+      902
+    ],
+    "spec_names": [
+      "Oléiculture et Agronomie Méditerranéenne",
+      "Master Sciences et Qualité de l'Huile d'Olive"
+    ]
+  },
+  {
+    "id_departement": 473,
+    "nom_departement": "Sciences et Technologies de l'Huile d'Olive",
+    "spec_ids": [
+      903
+    ],
+    "spec_names": [
+      "Extraction et Technologie de l'Huile d'Olive"
+    ]
+  },
+  {
+    "id_departement": 474,
+    "nom_departement": "Arts Plastiques et Design Sfax",
+    "spec_ids": [
+      904,
+      905
+    ],
+    "spec_names": [
+      "Arts Plastiques et Peinture Sfax",
+      "Design Graphique et Industriel Sfax"
+    ]
+  },
+  {
+    "id_departement": 475,
+    "nom_departement": "Arts et Patrimoine Sfax",
+    "spec_ids": [
+      906
+    ],
+    "spec_names": [
+      "Master Arts et Patrimoine Sfax"
+    ]
+  },
+  {
+    "id_departement": 476,
+    "nom_departement": "Électronique et Traitement du Signal",
+    "spec_ids": [
+      907,
+      908
+    ],
+    "spec_names": [
+      "Électronique et Microélectronique Sfax",
+      "Traitement du Signal et Image"
+    ]
+  },
+  {
+    "id_departement": 477,
+    "nom_departement": "Télécommunications et Réseaux",
+    "spec_ids": [
+      909,
+      912
+    ],
+    "spec_names": [
+      "Réseaux Mobiles et Télécoms Sfax",
+      "Master Télécommunications Avancées Sfax"
+    ]
+  },
+  {
+    "id_departement": 478,
+    "nom_departement": "Informatique et Systèmes Embarqués",
+    "spec_ids": [
+      910,
+      911,
+      913
+    ],
+    "spec_names": [
+      "IoT et Systèmes Embarqués Sfax",
+      "Cybersécurité et Réseaux ISECSF",
+      "Master Cybersécurité Avancée Sfax"
+    ]
+  },
+  {
+    "id_departement": 479,
+    "nom_departement": "Génie Industriel et Logistique",
+    "spec_ids": [
+      914,
+      915,
+      916
+    ],
+    "spec_names": [
+      "Génie Industriel et Logistique Sfax",
+      "Lean Manufacturing et Qualité",
+      "Master Génie Industriel Avancé Sfax"
+    ]
+  },
+  {
+    "id_departement": 480,
+    "nom_departement": "Management des Systèmes de Production",
+    "spec_ids": [
+      917,
+      918,
+      920
+    ],
+    "spec_names": [
+      "Gestion de Production Sfax",
+      "Maintenance Industrielle Sfax",
+      "Master Systèmes de Production Intelligents"
+    ]
+  },
+  {
+    "id_departement": 481,
+    "nom_departement": "Informatique Industrielle et Décisionnelle",
+    "spec_ids": [
+      919
+    ],
+    "spec_names": [
+      "Informatique Industrielle Sfax"
+    ]
+  },
+  {
+    "id_departement": 482,
+    "nom_departement": "Finance et Banque IHEC Sfax",
+    "spec_ids": [
+      921,
+      922,
+      923
+    ],
+    "spec_names": [
+      "Finance et Banque IHEC Sfax",
+      "Marchés Financiers et Actuariat IHEC",
+      "Master Finance Avancée IHEC Sfax"
+    ]
+  },
+  {
+    "id_departement": 483,
+    "nom_departement": "Management et Entrepreneuriat IHEC Sfax",
+    "spec_ids": [
+      924,
+      925
+    ],
+    "spec_names": [
+      "Management et Entrepreneuriat IHEC Sfax",
+      "MBA IHEC Sfax"
+    ]
+  },
+  {
+    "id_departement": 484,
+    "nom_departement": "Marketing et Commerce International IHEC",
+    "spec_ids": [
+      926,
+      927
+    ],
+    "spec_names": [
+      "Marketing et Communication IHEC Sfax",
+      "Master Marketing Digital IHEC Sfax"
+    ]
+  },
+  {
+    "id_departement": 485,
+    "nom_departement": "Comptabilité et Audit IHEC Sfax",
+    "spec_ids": [
+      928,
+      929
+    ],
+    "spec_names": [
+      "Comptabilité et Contrôle IHEC Sfax",
+      "Master Audit IHEC Sfax"
+    ]
+  },
+  {
+    "id_departement": 486,
+    "nom_departement": "Administration des Affaires",
+    "spec_ids": [
+      930,
+      931,
+      932
+    ],
+    "spec_names": [
+      "Administration et GRH Sfax",
+      "Finance et Gestion ISAA Sfax",
+      "Master Administration des Affaires Sfax"
+    ]
+  },
+  {
+    "id_departement": 487,
+    "nom_departement": "Commerce et Affaires Internationales",
+    "spec_ids": [
+      933
+    ],
+    "spec_names": [
+      "Commerce International Sfax"
+    ]
+  },
+  {
+    "id_departement": 488,
+    "nom_departement": "Informatique et Génie Logiciel",
+    "spec_ids": [
+      934,
+      935,
+      936,
+      937
+    ],
+    "spec_names": [
+      "Développement Logiciel ISIMS Sfax",
+      "Réseaux et Cybersécurité ISIMS Sfax",
+      "Informatique Fondamentale ISIMS Sfax",
+      "Master IA et Data Science ISIMS Sfax"
+    ]
+  },
+  {
+    "id_departement": 489,
+    "nom_departement": "Multimédia et Technologies Web",
+    "spec_ids": [
+      938,
+      939,
+      940
+    ],
+    "spec_names": [
+      "Multimédia et Développement Web",
+      "Production Audiovisuelle et Numérique",
+      "Master Médias et Création Numérique Sfax"
+    ]
+  },
+  {
+    "id_departement": 490,
+    "nom_departement": "Musique Arabe et Traditionnelle Sfax",
+    "spec_ids": [
+      941,
+      942,
+      944
+    ],
+    "spec_names": [
+      "Musique Arabe et Maqâm Sfax",
+      "Patrimoine Musical de Sfax",
+      "Master Ethnomusicologie Sfax"
+    ]
+  },
+  {
+    "id_departement": 491,
+    "nom_departement": "Musicologie et Composition Sfax",
+    "spec_ids": [
+      943
+    ],
+    "spec_names": [
+      "Composition et Arrangement Sfax"
+    ]
+  },
+  {
+    "id_departement": 492,
+    "nom_departement": "Maths-Physique Sfax",
+    "spec_ids": [
+      945
+    ],
+    "spec_names": [
+      "Maths-Physique Sfax"
+    ]
+  },
+  {
+    "id_departement": 493,
+    "nom_departement": "Physique-Chimie Sfax",
+    "spec_ids": [
+      946
+    ],
+    "spec_names": [
+      "Physique-Chimie Sfax"
+    ]
+  },
+  {
+    "id_departement": 494,
+    "nom_departement": "Sciences du Sport et Éducation Physique",
+    "spec_ids": [
+      947,
+      948,
+      949
+    ],
+    "spec_names": [
+      "Sciences du Sport et Performance Sfax",
+      "Éducation Physique et Scolaire Sfax",
+      "Master Sport et Santé Sfax"
+    ]
+  },
+  {
+    "id_departement": 495,
+    "nom_departement": "Management du Sport et Kinésithérapie",
+    "spec_ids": [
+      950
+    ],
+    "spec_names": [
+      "Management Sportif Sfax"
+    ]
+  },
+  {
+    "id_departement": 496,
+    "nom_departement": "Biotechnologie Moléculaire et Cellulaire",
+    "spec_ids": [
+      951,
+      952,
+      953
+    ],
+    "spec_names": [
+      "Biotechnologie Moléculaire Sfax",
+      "Biotechnologie Microbienne Sfax",
+      "Master Biotechnologies Avancées Sfax"
+    ]
+  },
+  {
+    "id_departement": 497,
+    "nom_departement": "Biotechnologie Microbienne et Environnement",
+    "spec_ids": [
+      954
+    ],
+    "spec_names": [
+      "Master Bioremédiation et Environnement Sfax"
+    ]
+  },
+  {
+    "id_departement": 498,
+    "nom_departement": "Sciences Infirmières Sfax",
+    "spec_ids": [
+      955
+    ],
+    "spec_names": [
+      "Soins Infirmiers Généraux Sfax"
+    ]
+  },
+  {
+    "id_departement": 499,
+    "nom_departement": "Obstétrique et Soins Maternels Sfax",
+    "spec_ids": [
+      956
+    ],
+    "spec_names": [
+      "Sage-Femme et Soins Obstétricaux Sfax"
+    ]
+  },
+  {
+    "id_departement": 500,
+    "nom_departement": "Langue et Littérature Arabes",
+    "spec_ids": [
+      957,
+      958,
+      959
+    ],
+    "spec_names": [
+      "Langue et Littérature Arabes Classiques",
+      "Langue et Littérature Arabes Modernes",
+      "Master Linguistique et Littérature Arabes"
+    ]
+  },
+  {
+    "id_departement": 501,
+    "nom_departement": "Langue et Littérature Anglaises",
+    "spec_ids": [
+      960,
+      961,
+      962,
+      963,
+      964
+    ],
+    "spec_names": [
+      "Langue et Littérature Anglaises",
+      "Traduction Anglais-Arabe-Français",
+      "Langue et Littérature Françaises",
+      "Traduction Français-Arabe-Anglais",
+      "Master Traduction et Communication"
+    ]
+  },
+  {
+    "id_departement": 502,
+    "nom_departement": "Langue et Littérature Françaises",
+    "spec_ids": [
+      965,
+      966,
+      967,
+      968,
+      969
+    ],
+    "spec_names": [
+      "Histoire Ancienne et Médiévale Manouba",
+      "Histoire Moderne et Contemporaine Manouba",
+      "Master Histoire et Patrimoine Manouba",
+      "Géographie Humaine Manouba",
+      "Géographie Physique et SIG Manouba"
+    ]
+  },
+  {
+    "id_departement": 503,
+    "nom_departement": "Histoire",
+    "spec_ids": [
+      970,
+      971,
+      972,
+      973,
+      974,
+      975
+    ],
+    "spec_names": [
+      "Master SIG et Développement Territorial",
+      "Philosophie Générale et Éthique Manouba",
+      "Sciences Sociales et Études Culturelles",
+      "Allemand des Affaires et Traduction",
+      "Espagnol des Affaires et Traduction",
+      "Italien des Affaires et Traduction"
+    ]
+  },
+  {
+    "id_departement": 504,
+    "nom_departement": "Géographie",
+    "spec_ids": [
+      976,
+      977,
+      978
+    ],
+    "spec_names": [
+      "Design Industriel et Éco-Conception",
+      "Design Environnemental et Urbain",
+      "Master Design Durable et Innovation"
+    ]
+  },
+  {
+    "id_departement": 505,
+    "nom_departement": "Philosophie et Sciences Humaines",
+    "spec_ids": [
+      979,
+      980,
+      981
+    ],
+    "spec_names": [
+      "Design Graphique et Communication Visuelle",
+      "Design Numérique et Interactif",
+      "Master Design Graphique Avancé"
+    ]
+  },
+  {
+    "id_departement": 506,
+    "nom_departement": "Langues Étrangères Appliquées",
+    "spec_ids": [
+      982,
+      983,
+      984
+    ],
+    "spec_names": [
+      "Finance d Entreprise ESCT",
+      "Comptabilité et Contrôle ESCT",
+      "Master Finance Avancée ESCT"
+    ]
+  },
+  {
+    "id_departement": 507,
+    "nom_departement": "Design Industriel et Environnemental",
+    "spec_ids": [
+      985,
+      986,
+      990
+    ],
+    "spec_names": [
+      "Management et Stratégie ESCT",
+      "Entrepreneuriat et Innovation ESCT",
+      "Master Marketing Digital ESCT"
+    ]
+  },
+  {
+    "id_departement": 508,
+    "nom_departement": "Design Graphique et Communication Visuelle",
+    "spec_ids": [
+      987
+    ],
+    "spec_names": [
+      "MBA Management International ESCT"
+    ]
+  },
+  {
+    "id_departement": 509,
+    "nom_departement": "Design de Mode et Textile",
+    "spec_ids": [
+      988,
+      989
+    ],
+    "spec_names": [
+      "Marketing International ESCT",
+      "Commerce International ESCT"
+    ]
+  },
+  {
+    "id_departement": 510,
+    "nom_departement": "Management et Stratégie",
+    "spec_ids": [
+      991,
+      992,
+      993,
+      994
+    ],
+    "spec_names": [
+      "SI et ERP ESCT",
+      "Master Transformation Digitale ESCT",
+      "E-Commerce et UX Design",
+      "Marketing Digital et Réseaux Sociaux"
+    ]
+  },
+  {
+    "id_departement": 511,
+    "nom_departement": "Finance et Comptabilité ESCT",
+    "spec_ids": [
+      995,
+      996,
+      997,
+      998
+    ],
+    "spec_names": [
+      "Master Commerce Digital Avancé",
+      "Management des SI et ERP",
+      "Data Analytics et IA des Affaires",
+      "Master Management et IA Digitale"
+    ]
+  },
+  {
+    "id_departement": 512,
+    "nom_departement": "Marketing et Commerce International",
+    "spec_ids": [
+      999,
+      1000,
+      1001,
+      1002
+    ],
+    "spec_names": [
+      "Génie Logiciel et Architecture SI",
+      "Ingénierie des Données et Big Data",
+      "Réseaux, Cybersécurité et Cloud",
+      "Intelligence Artificielle et ML"
+    ]
+  },
+  {
+    "id_departement": 513,
+    "nom_departement": "Économie et Méthodes Quantitatives",
+    "spec_ids": [
+      1003,
+      1004
+    ],
+    "spec_names": [
+      "Master Génie Logiciel ENSI",
+      "Master IA et Cybersécurité ENSI"
+    ]
+  },
+  {
+    "id_departement": 514,
+    "nom_departement": "Commerce Électronique et Digital",
+    "spec_ids": [
+      1005,
+      1006,
+      1007
+    ],
+    "spec_names": [
+      "Animation 2D/3D et Effets Spéciaux",
+      "Arts Numériques et Interactifs",
+      "Master Arts Numériques et VR"
+    ]
+  },
+  {
+    "id_departement": 515,
+    "nom_departement": "Technologies de l'Information Commerciale",
+    "spec_ids": [
+      1008,
+      1009,
+      1010
+    ],
+    "spec_names": [
+      "Web Design et Développement Créatif",
+      "Communication Numérique et Multimédia",
+      "Master Médias Numériques Manouba"
+    ]
+  },
+  {
+    "id_departement": 516,
+    "nom_departement": "Entrepreneuriat Numérique",
+    "spec_ids": [
+      1011,
+      1012
+    ],
+    "spec_names": [
+      "Comptabilité Générale et Analytique ISCAE",
+      "Audit Légal et Contrôle de Gestion"
+    ]
+  },
+  {
+    "id_departement": 517,
+    "nom_departement": "Génie Logiciel et Systèmes d'Information",
+    "spec_ids": [
+      1013,
+      1017,
+      1018
+    ],
+    "spec_names": [
+      "Master Comptabilité et Audit ISCAE",
+      "GRH et Développement Organisationnel",
+      "Management des Organisations ISCAE"
+    ]
+  },
+  {
+    "id_departement": 518,
+    "nom_departement": "Intelligence Artificielle et Data Science",
+    "spec_ids": [
+      1014,
+      1015,
+      1019
+    ],
+    "spec_names": [
+      "Finance d Entreprise ISCAE",
+      "Administration et Droit des Affaires",
+      "Master GRH et Management ISCAE"
+    ]
+  },
+  {
+    "id_departement": 519,
+    "nom_departement": "Réseaux et Cybersécurité ENSI",
+    "spec_ids": [
+      1016,
+      1020,
+      1021
+    ],
+    "spec_names": [
+      "Master Finance Appliquée ISCAE",
+      "Biotechnologie Moléculaire et Génomique",
+      "Biotechnologie Microbienne Appliquée"
+    ]
+  },
+  {
+    "id_departement": 520,
+    "nom_departement": "Sciences Vétérinaires Fondamentales",
+    "spec_ids": [
+      1022,
+      1023
+    ],
+    "spec_names": [
+      "Master Biotechnologies Avancées Sidi Thabet",
+      "Biotechnologie Vétérinaire et Animale"
+    ]
+  },
+  {
+    "id_departement": 521,
+    "nom_departement": "Médecine Vétérinaire Clinique",
+    "spec_ids": [
+      1024,
+      1025
+    ],
+    "spec_names": [
+      "Archivistique et Gestion Documentaire",
+      "Bibliothéconomie et Bibliothèques Numériques"
+    ]
+  },
+  {
+    "id_departement": 522,
+    "nom_departement": "Santé Animale et Zoonoses",
+    "spec_ids": [
+      1026
+    ],
+    "spec_names": [
+      "Master Sciences de l Information Manouba"
+    ]
+  },
+  {
+    "id_departement": 523,
+    "nom_departement": "Arts du Multimédia et Audiovisuel",
+    "spec_ids": [
+      1027,
+      1028
+    ],
+    "spec_names": [
+      "Bibliothèques Numériques et Data Curation",
+      "Knowledge Management et Veille"
+    ]
+  },
+  {
+    "id_departement": 524,
+    "nom_departement": "Design Numérique et Jeux Vidéo",
+    "spec_ids": [
+      1029,
+      1030
+    ],
+    "spec_names": [
+      "Journalisme Écrit et Investigation",
+      "Journalisme Audiovisuel et Numérique"
+    ]
+  },
+  {
+    "id_departement": 525,
+    "nom_departement": "Communication Numérique et Web",
+    "spec_ids": [
+      1031,
+      1032,
+      1033
+    ],
+    "spec_names": [
+      "Master Journalisme Avancé IPSI",
+      "Communication Institutionnelle et RP",
+      "Médias Numériques et Community Management"
+    ]
+  },
+  {
+    "id_departement": 526,
+    "nom_departement": "Comptabilité et Audit ISCAE",
+    "spec_ids": [
+      1034,
+      1035,
+      1036
+    ],
+    "spec_names": [
+      "Master Communication Stratégique IPSI",
+      "Médecine Vétérinaire des Animaux de Compagnie",
+      "Médecine Vétérinaire des Animaux de Rente"
+    ]
+  },
+  {
+    "id_departement": 527,
+    "nom_departement": "Finance et Administration ISCAE",
+    "spec_ids": [
+      1037,
+      1038
+    ],
+    "spec_names": [
+      "Master Sciences Vétérinaires Avancées",
+      "Master Santé Publique Vétérinaire"
+    ]
+  },
+  {
+    "id_departement": 528,
+    "nom_departement": "Management et RH ISCAE",
+    "spec_ids": [
+      1039,
+      1040
+    ],
+    "spec_names": [
+      "Sciences du Sport et Performance Manouba",
+      "Éducation Physique Scolaire Manouba"
+    ]
+  },
+  {
+    "id_departement": 529,
+    "nom_departement": "Biotechnologie Moléculaire et Microbienne",
+    "spec_ids": [
+      1041,
+      1042,
+      1043,
+      1045,
+      1046
+    ],
+    "spec_names": [
+      "Master Sport et Santé Manouba",
+      "Management Sportif Manouba",
+      "Activités Physiques Adaptées Manouba",
+      "Réadaptation et Ergothérapie",
+      "Orthophonie et Inclusion Sociale"
+    ]
+  },
+  {
+    "id_departement": 530,
+    "nom_departement": "Biotechnologie Animale et Vétérinaire",
+    "spec_ids": [
+      1044
+    ],
+    "spec_names": [
+      "Master Management du Sport Manouba"
+    ]
+  },
+  {
+    "id_departement": 531,
+    "nom_departement": "Sciences de l'Information et Documentation",
+    "spec_ids": [
+      1047,
+      1048,
+      1049,
+      1050
+    ],
+    "spec_names": [
+      "Master Réadaptation et Inclusion",
+      "Histoire Politique et Sociale Contemporaine",
+      "Histoire Culturelle Contemporaine Tunisie",
+      "Master Histoire Contemporaine Tunisie"
+    ]
+  },
+  {
+    "id_departement": 532,
+    "nom_departement": "Bibliothèques Numériques et Data Curation",
+    "spec_ids": [
+      1051
+    ],
+    "spec_names": [
+      "Archives Nationales et Mémoire"
+    ]
+  },
+  {
+    "id_departement": 541,
+    "nom_departement": "Informatique",
+    "spec_ids": [
+      1052
+    ],
+    "spec_names": [
+      "Informatique Générale"
+    ]
+  }
+]

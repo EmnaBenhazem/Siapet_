@@ -1,0 +1,5 @@
+Algorithme,R2 Score,MAE (%),RMSE (%),Decision
+Regression Lineaire,0.8619,2.6274,3.2334,OUI ***
+Random Forest,0.8154,3.0108,3.7393,
+LightGBM,0.8044,3.0538,3.8225,
+XGBoost,0.749,3.4397,4.3451,

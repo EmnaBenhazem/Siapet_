@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accès accordé — Étudiant · SIAPET</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800;900&display=swap');
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: 'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif;
+      background-color: #EAF4FF !important;
+      padding: 24px 0;
+      color: #2D3436 !important;
+      -webkit-text-size-adjust: 100%;
+    }
+    .wrap { max-width: 600px; margin: 0 auto; }
+    .hd {
+      padding: 40px 32px 36px;
+      text-align: center;
+      position: relative; overflow: hidden;
+      border-radius: 20px 20px 0 0;
+    }
+    .hd::before {
+      content: '';
+      position: absolute; inset: 0;
+      background-image: radial-gradient(rgba(255,255,255,0.07) 1px, transparent 1px);
+      background-size: 22px 22px;
+    }
+    .hd-inner { position: relative; z-index: 1; }
+    .logo-row { display: inline-flex; align-items: center; gap: 8px; margin-bottom: 16px; }
+    .logo-dot { width: 8px; height: 8px; border-radius: 50%; background: #06D6A0; box-shadow: 0 0 10px #06D6A0; }
+    .logo-text { font-size: 14px; font-weight: 900; letter-spacing: 2.5px; color: #fff; text-transform: uppercase; }
+    .hd-emoji { font-size: 52px; margin-bottom: 12px; display: block; }
+    .hd h1 { font-size: 28px; font-weight: 900; color: #fff; letter-spacing: -0.5px; line-height: 1.2; margin-bottom: 8px; }
+    .hd p { color: rgba(255,255,255,0.68); font-size: 13.5px; }
+    .accent-strip { height: 4px; }
+    .body { background: #ffffff !important; padding: 38px 34px; }
+    .greeting { font-size: 19px; font-weight: 800; color: #1A3A6B; margin-bottom: 20px; }
+    .success-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 10px 22px; border-radius: 50px;
+      font-weight: 700; font-size: 13.5px; color: #fff;
+      margin-bottom: 22px;
+    }
+    .intro-text {
+      font-size: 14.5px; color: #4A5568; line-height: 1.8;
+      margin-bottom: 26px;
+    }
+    .info-box {
+      border-radius: 16px; padding: 24px; margin-bottom: 22px;
+      border: 1.5px solid transparent;
+      position: relative; overflow: hidden;
+    }
+    .info-box::before {
+      content: ''; position: absolute;
+      top: 0; left: 0; right: 0; height: 3px;
+    }
+    .info-box h3 { font-size: 15px; font-weight: 800; color: #1A3A6B; margin-bottom: 16px; }
+    .info-row {
+      display: flex; align-items: center;
+      padding: 11px 14px; border-radius: 10px;
+      margin-bottom: 8px;
+      background: rgba(255,255,255,0.7);
+      border: 1px solid rgba(255,255,255,0.5);
+    }
+    .info-row:last-child { margin-bottom: 0; }
+    .info-label { font-size: 11px; font-weight: 700; color: #8A9BB0; text-transform: uppercase; letter-spacing: 0.5px; min-width: 150px; }
+    .credential {
+      font-family: 'Courier New', monospace;
+      font-size: 16px; font-weight: 700;
+      padding: 3px 12px; border-radius: 8px;
+    }
+    .info-value { font-size: 14px; font-weight: 600; color: #2D3436; }
+    .warn {
+      background: #FFFBEB;
+      border: 1.5px solid #FDE68A;
+      border-left: 4px solid #F59E0B;
+      border-radius: 14px;
+      padding: 18px 20px;
+      margin-bottom: 24px;
+    }
+    .warn-title { font-size: 13.5px; font-weight: 800; color: #92400E; margin-bottom: 8px; }
+    .warn-body { font-size: 13px; color: #78350F; line-height: 1.7; }
+    .features {
+      border-radius: 14px; padding: 22px; margin-bottom: 26px;
+    }
+    .features h4 { font-size: 14px; font-weight: 800; margin-bottom: 14px; }
+    .feature-item {
+      display: flex; align-items: center; gap: 10px;
+      padding: 8px 0; border-bottom: 1px solid rgba(0,0,0,0.05);
+    }
+    .feature-item:last-child { border-bottom: none; }
+    .feature-check { font-size: 14px; flex-shrink: 0; }
+    .feature-text { font-size: 13.5px; color: #2D3436; line-height: 1.5; }
+    .cta-wrap { text-align: center; margin: 32px 0 8px; }
+    .cta-btn {
+      display: inline-block;
+      color: #ffffff !important;
+      text-decoration: none;
+      padding: 17px 48px;
+      border-radius: 16px;
+      font-weight: 800;
+      font-size: 15px;
+      letter-spacing: -0.2px;
+      font-family: 'Segoe UI', Arial, sans-serif;
+    }
+    .help { font-size: 12.5px; color: #B0BEC5; text-align: center; line-height: 1.7; margin-top: 22px; }
+    .ft {
+      background: linear-gradient(150deg, #0F2549 0%, #1A3A6B 60%, #1E4880 100%);
+      border-radius: 0 0 20px 20px;
+      padding: 30px 32px; text-align: center;
+      position: relative; overflow: hidden;
+    }
+    .ft::before {
+      content: '';
+      position: absolute; inset: 0;
+      background-image: radial-gradient(rgba(255,255,255,0.04) 1px, transparent 1px);
+      background-size: 22px 22px;
+    }
+    .ft-inner { position: relative; z-index: 1; }
+    .ft-logo { font-size: 14px; font-weight: 900; letter-spacing: 2.5px; color: #fff; margin-bottom: 6px; }
+    .ft-tag { color: rgba(255,255,255,0.5); font-size: 12px; line-height: 1.7; margin-bottom: 14px; }
+    .ft-divider { height: 1px; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.14), transparent); margin: 0 0 14px; }
+    .ft-legal { color: rgba(255,255,255,0.3); font-size: 11px; }
+    /* broadcast specific */
+    .msg-box {
+      border-radius: 16px; padding: 24px; margin-bottom: 26px;
+      position: relative; overflow: hidden;
+    }
+    .msg-box::before { content: ''; position: absolute; top: 0; left: 0; bottom: 0; width: 4px; }
+    .msg-subject { font-size: 16px; font-weight: 800; color: #1A3A6B; margin-bottom: 14px; }
+    .msg-content { font-size: 14.5px; color: #2D3436; line-height: 1.85; white-space: pre-wrap; }
+</style>
+</head>
+<body style="margin:0;padding:24px 0;font-family:'Segoe UI',Arial,sans-serif;background-color:#EAF4FF !important;">
+<div class="wrap">
+
+  <div class="hd" style="background:linear-gradient(150deg,#047857 0%,#059669 55%,#059669CC 100%);">
+    <div class="hd-inner">
+      <div class="logo-row">
+        <div class="logo-dot"></div>
+        <div class="logo-text">SIAPET</div>
+      </div>
+      <span class="hd-emoji">🎓</span>
+      <h1>Bienvenue, Étudiant !</h1>
+      <p>Votre accès à la plateforme a été activé avec succès</p>
+    </div>
+  </div>
+  <div class="accent-strip" style="background:linear-gradient(90deg,#10B981,#059669,#10B981);"></div>
+
+  <div class="body" style="background:#ffffff !important;">
+    <div class="greeting">Bonjour {{prenom}} {{nom}},</div>
+
+    <div class="success-badge" style="background:linear-gradient(135deg,#047857,#059669);box-shadow:0 6px 22px rgba(5,150,105,0.28);">
+      ✓ Compte Étudiant activé avec succès
+    </div>
+
+    <p class="intro-text">
+      Votre demande d'accès à <strong style="color:#1A3A6B;">SIAPET</strong> a été
+      <strong style="color:#059669;">acceptée</strong>. Vous disposez maintenant de tous
+      les outils dédiés à votre rôle de étudiant.
+    </p>
+
+    <div class="info-box" style="background:linear-gradient(145deg,rgba(5,150,105,0.06),rgba(5,150,105,0.02));border-color:rgba(5,150,105,0.18);">
+      <h3>🔑 Vos identifiants de connexion</h3>
+      <div class="info-row" style="background:rgba(5,150,105,0.04);">
+        <span class="info-label">Numéro étudiant</span>
+        <span class="credential" style="color:#059669;background:rgba(5,150,105,0.08);">{{numeroUtilisateur}}</span>
+      </div>
+        <div class="info-row">
+          <span class="info-label">Matricule</span>
+          <span class="credential" style="color:#059669;background:rgba(5,150,105,0.08);">{matricule}</span>
+        </div>
+      <div class="info-row" style="background:rgba(5,150,105,0.04);">
+        <span class="info-label">Adresse email</span>
+        <span class="info-value">{{email}}</span>
+      </div>
+      <div class="info-row" style="background:rgba(5,150,105,0.04);">
+        <span class="info-label">Mot de passe temp.</span>
+        <span class="credential" style="color:#059669;background:rgba(5,150,105,0.08);">{{motDePasse}}</span>
+      </div>
+    </div>
+
+    <div class="warn">
+      <div class="warn-title">⚠️ Première connexion obligatoire</div>
+      <div class="warn-body">
+        Pour des raisons de sécurité, vous devrez <strong>changer votre mot de passe</strong>
+        dès votre première connexion. Conservez ce message en lieu sûr.
+      </div>
+    </div>
+
+    <div class="features" style="background:rgba(5,150,105,0.05);border:1.5px solid rgba(5,150,105,0.12);">
+      <h4 style="color:#059669;">🎯 Vos outils disponibles sur SIAPET :</h4>
+          <div class="feature-item"><span class="feature-check">✅</span><span class="feature-text">Consulter vos notes et résultats académiques</span></div>
+          <div class="feature-item"><span class="feature-check">✅</span><span class="feature-text">Accéder à votre emploi du temps</span></div>
+          <div class="feature-item"><span class="feature-check">✅</span><span class="feature-text">Suivre votre progression académique</span></div>
+          <div class="feature-item"><span class="feature-check">✅</span><span class="feature-text">Télécharger vos attestations et documents</span></div>
+          <div class="feature-item"><span class="feature-check">✅</span><span class="feature-text">Communiquer avec vos enseignants</span></div>
+          <div class="feature-item"><span class="feature-check">✅</span><span class="feature-text">Gérer votre profil étudiant</span></div>
+    </div>
+
+    <div class="cta-wrap">
+      <a href="{{frontendUrl}}/login"
+         class="cta-btn"
+         style="background:linear-gradient(135deg,#047857,#059669);box-shadow:0 8px 28px rgba(5,150,105,0.28);">
+        Accéder à mon espace étudiant →
+      </a>
+    </div>
+
+    <p class="help">
+      Des questions ? Contactez le support ou consultez le guide utilisateur.<br>
+      Une réponse sous 48h ouvrables est garantie.
+    </p>
+  </div>
+
+  <div class="ft">
+    <div class="ft-inner">
+      <div class="ft-logo">SIAPET</div>
+      <div class="ft-tag">
+        Ministère de l'Enseignement Supérieur<br>
+        et de la Recherche Scientifique — Tunisie 🇹🇳
+      </div>
+      <div class="ft-divider"></div>
+      <div class="ft-legal">© 2026 SIAPET · Cet email a été envoyé automatiquement, merci de ne pas y répondre.</div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

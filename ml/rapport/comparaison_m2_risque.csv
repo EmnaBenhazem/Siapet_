@@ -1,0 +1,5 @@
+Algorithme,Accuracy,Recall,Precision,F1-Score,AUC-ROC,Decision
+Regression Logistique,90.87,93.97,53.99,68.5,0.9741,OUI ***
+LightGBM,93.7,73.97,68.75,71.21,0.9661,
+XGBoost,93.27,71.43,67.11,69.08,0.959,
+Random Forest,93.5,48.25,82.83,60.86,0.9648,

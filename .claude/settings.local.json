@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Test-Path \"C:\\\\Users\\\\benha\\\\Downloads\\\\SIAPET\\\\Sprint3-ML-main\\\\backend\\\\node_modules\")",
+      "Bash(Test-Path \"C:\\\\Users\\\\benha\\\\Downloads\\\\SIAPET\\\\Sprint3-ML-main\\\\frontend\\\\node_modules\")",
+      "PowerShell(try { $r = Invoke-WebRequest -Uri \"http://localhost:5000/health\" -UseBasicParsing -ErrorAction Stop; $r.Content } catch { \"Backend not running\" })",
+      "PowerShell(Start-Process powershell -ArgumentList \"-NoExit\", \"-Command\", \"cd 'C:\\\\Users\\\\benha\\\\Downloads\\\\SIAPET\\\\Sprint3-ML-main\\\\frontend'; `$env:PORT='3001'; `$env:BROWSER='none'; npm start\")",
+      "Bash(curl -s http://localhost:5000/health)",
+      "Bash(node server.js)",
+      "Bash(echo \"PID: $!\")",
+      "PowerShell(& psql -U postgres -d db_siapet -c $query 2>&1)",
+      "PowerShell($query = \"SELECT email, type_utilisateur, statut, LEFT\\(mot_de_passe, 30\\) as hash_debut FROM utilisateur WHERE email IN \\('ahmed.trabelsi@isetrades.tn', 'sami.ayari@etud.isetrades.tn'\\);\")",
+      "PowerShell(pip *)"
+    ]
+  }
+}

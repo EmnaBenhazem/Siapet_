@@ -1,0 +1,32 @@
+{
+  "name": "siapet-backend",
+  "version": "1.0.0",
+  "description": "Backend API pour SIAPET - Système Intelligent d'Analyse Prédictive des Performances Éducatives",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "create-admin": "node scripts/createAdmin.js",
+    "update-dates": "node scripts/updateInscriptionDates.js",
+    "update-dates-realistic": "node scripts/updateInscriptionDatesRealistic.js",
+    "update-student-dates": "node scripts/updateStudentDatesOnly.js",
+    "redistribute-dates": "node scripts/redistributeStudentDates.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "joi": "^17.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.10.1",
+    "pg": "^8.11.3",
+    "sequelize": "^6.35.2",
+    "socket.io": "^4.8.3",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
